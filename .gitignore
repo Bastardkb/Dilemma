@@ -1,0 +1,34 @@
+# Temporary files
+*.000
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.kicad_prl
+*.sch-bak
+*~
+*.tmp
+*-save.pro
+*-save.kicad_pcb
+fp-info-cache 
+
+# Netlist files (exported from Eeschema)
+*.net
+
+# Autorouter files (exported from Pcbnew)
+*.dsn
+*.ses
+
+# Exported BOM files
+*.xml
+*.csv
+
+# Bastardkb files
+
+unnamed/gerber
+gerber
+gerber/*
+unnamed/unnamed-backups
+unnamed/unnamed-backups/*
+
+# Project specific files
