@@ -13,11 +13,13 @@
 
 features: 
 
-- 4x6 breakable down to 3x5
-- reversible
+- ~~4x6 breakable down to 3x5~~
+- ~~reversible~~
 - oled, rotary encoder
 - splitkb tenting puck 
-- per key rgb
+- ~~per key rgb~~
+- underglow rgb
+- usb-c footprint on top of audio jack
 
 nice!nano:
 
