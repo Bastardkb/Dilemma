@@ -24,7 +24,13 @@ features:
 nice!nano:
 
 - pinout compatibility
-- on/off switch, battery connector 
+- on/off switch, battery connector  
+
+
+Mods:
+
+- sdl sca vcc gnd breakout (tht)
+- detachable trackpad part, with 2 screws, to make other mods installable instead....
 
 
 # License 
