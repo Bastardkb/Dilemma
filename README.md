@@ -14,7 +14,7 @@
 features: 
 
 - ~~4x6 breakable down to 3x5~~
-- ~~reversible~~
+- reversible
 - oled, rotary encoder
 - splitkb tenting puck 
 - ~~per key rgb~~
