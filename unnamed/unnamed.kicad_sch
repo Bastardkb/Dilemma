@@ -3692,7 +3692,7 @@
     (uuid be3485fb-9d3c-40d5-abfd-0f4dfff6875d)
     (property "Reference" "SW37" (id 0) (at 373.38 40.64 0))
     (property "Value" "SW_SPST" (id 1) (at 373.38 43.18 0))
-    (property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H9.5mm" (id 2) (at 373.38 46.99 0)
+    (property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm" (id 2) (at 373.38 46.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 373.38 46.99 0)
@@ -4189,7 +4189,7 @@
       (reference "SW26") (unit 1) (value "SW_SPST") (footprint "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm")
     )
     (path "/be3485fb-9d3c-40d5-abfd-0f4dfff6875d"
-      (reference "SW37") (unit 1) (value "SW_SPST") (footprint "Button_Switch_THT:SW_PUSH_6mm_H9.5mm")
+      (reference "SW37") (unit 1) (value "SW_SPST") (footprint "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm")
     )
     (path "/be4a846f-e398-4560-93fc-42de85dc5e36"
       (reference "U2") (unit 1) (value "eliteC") (footprint "footprints:Elite-C")
