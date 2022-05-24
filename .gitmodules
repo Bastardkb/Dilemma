@@ -1,0 +1,3 @@
+[submodule "keyboard-libraries"]
+	path = keyboard-libraries
+	url = https://github.com/Bastardkb/keyboard-libraries
