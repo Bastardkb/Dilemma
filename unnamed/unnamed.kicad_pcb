@@ -151,8 +151,8 @@
   (net 61 "unconnected-(U2-Pad28)")
   (net 62 "ss_l")
   (net 63 "+3V3")
-  (net 64 "unconnected-(U2-Pad20)")
-  (net 65 "unconnected-(U2-Pad29)")
+  (net 64 "unconnected-(U2-Pad29)")
+  (net 65 "hand")
 
   (footprint "Library:D_1206_handsolder_reversible" (layer "F.Cu")
     (tedit 62836C4D) (tstamp 0713e104-c2ab-4490-8912-134dab856412)
@@ -1337,7 +1337,7 @@
     (pad "19" thru_hole circle (at -1.27 -7.62 270) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask)
       (net 19 "row1_l") (pinfunction "F5") (pintype "bidirectional") (tstamp c25a772d-af9c-4ebc-96f6-0966738c13a8))
     (pad "20" thru_hole circle (at -3.81 -7.62 270) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask)
-      (net 64 "unconnected-(U2-Pad20)") (pinfunction "F4") (pintype "bidirectional") (tstamp 8c514922-ffe1-4e37-a260-e807409f2e0d))
+      (net 65 "hand") (pinfunction "F4") (pintype "bidirectional") (tstamp 8c514922-ffe1-4e37-a260-e807409f2e0d))
     (pad "21" thru_hole circle (at -6.35 -7.62 270) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask)
       (net 57 "Vcc_l") (pinfunction "VCC") (pintype "power_in") (tstamp 40976bf0-19de-460f-ad64-224d4f51e16b))
     (pad "22" thru_hole circle (at -8.89 -7.62 270) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask)
@@ -1355,7 +1355,7 @@
     (pad "28" thru_hole circle (at 13.97 -2.54 270) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask)
       (net 61 "unconnected-(U2-Pad28)") (pinfunction "F1") (pintype "bidirectional+no_connect") (tstamp 03caada9-9e22-4e2d-9035-b15433dfbb17))
     (pad "29" thru_hole circle (at 13.97 -5.08 270) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask)
-      (net 65 "unconnected-(U2-Pad29)") (pinfunction "F0") (pintype "bidirectional+no_connect") (tstamp 1f3003e6-dce5-420f-906b-3f1e92b67249))
+      (net 64 "unconnected-(U2-Pad29)") (pinfunction "F0") (pintype "bidirectional+no_connect") (tstamp 1f3003e6-dce5-420f-906b-3f1e92b67249))
     (model "/Users/danny/Documents/proj/custom-keyboard/kicad-libs/3d_models/ArduinoProMicro.wrl"
       (offset (xyz -13.96999979 -7.619999886 -5.841999912))
       (scale (xyz 0.395 0.395 0.395))
