@@ -35,3 +35,5 @@ fabrication-output
 fabrication-output/*
 
 # Project specific files
+CirqueDB-backups
+CirqueDB-backups/*
