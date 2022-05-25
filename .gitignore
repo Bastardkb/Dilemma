@@ -28,7 +28,10 @@ fp-info-cache
 unnamed/gerber
 gerber
 gerber/*
-unnamed/unnamed-backups
-unnamed/unnamed-backups/*
+*/*-backups
+*/*-backups/*
+*_autosave*
+fabrication-output
+fabrication-output/*
 
 # Project specific files
