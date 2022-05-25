@@ -4144,7 +4144,7 @@
     (uuid c51d5d6e-3b88-4f8e-8052-c5e71c69581c)
     (property "Reference" "O2" (id 0) (at 299.72 150.8275 0))
     (property "Value" "OLED" (id 1) (at 300.99 153.3675 0))
-    (property "Footprint" "swoop:OLED_jumpers" (id 2) (at 295.91 151.638 0)
+    (property "Footprint" "footprints:PinHeader_1x04_P2.54mm_Vertical" (id 2) (at 295.91 151.638 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 295.91 151.638 0)
@@ -4613,7 +4613,7 @@
       (reference "J7") (unit 1) (value "trackball") (footprint "Library:6_PinHeader")
     )
     (path "/c51d5d6e-3b88-4f8e-8052-c5e71c69581c"
-      (reference "O2") (unit 1) (value "OLED") (footprint "swoop:OLED_jumpers")
+      (reference "O2") (unit 1) (value "OLED") (footprint "footprints:PinHeader_1x04_P2.54mm_Vertical")
     )
     (path "/7b8c700f-e98a-4d4d-a6e4-baf976482a3f"
       (reference "O3") (unit 1) (value "trackpad") (footprint "footprints:PinHeader_1x04_P2.54mm_Vertical")
