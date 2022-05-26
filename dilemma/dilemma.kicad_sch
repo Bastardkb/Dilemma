@@ -2270,7 +2270,7 @@
     (property "Value" "S3B-PH-SM4-TB(LF)(SN)" (id 1) (at 168.656 105.918 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_JST:JST_PH_S3B-PH-SM4-TB_1x03-1MP_P2.00mm_Horizontal" (id 2) (at 186.944 99.314 0)
+    (property "Footprint" "Connector_JST:JST_SH_BM03B-SRSS-TB_1x03-1MP_P1.00mm_Vertical" (id 2) (at 186.944 99.314 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 186.944 99.314 0)
@@ -2857,7 +2857,7 @@
     (property "Value" "S3B-PH-SM4-TB(LF)(SN)" (id 1) (at 167.767 122.809 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_JST:JST_PH_S3B-PH-SM4-TB_1x03-1MP_P2.00mm_Horizontal" (id 2) (at 186.055 116.205 0)
+    (property "Footprint" "Connector_JST:JST_SH_BM03B-SRSS-TB_1x03-1MP_P1.00mm_Vertical" (id 2) (at 186.055 116.205 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 186.055 116.205 0)
@@ -3728,7 +3728,7 @@
       (reference "H9") (unit 1) (value "M4") (footprint "footprints:MountingHole_3mm_Pad_thin")
     )
     (path "/66955d3c-d746-41bf-9f85-512a3bc00115"
-      (reference "J1") (unit 1) (value "S3B-PH-SM4-TB(LF)(SN)") (footprint "Connector_JST:JST_PH_S3B-PH-SM4-TB_1x03-1MP_P2.00mm_Horizontal")
+      (reference "J1") (unit 1) (value "S3B-PH-SM4-TB(LF)(SN)") (footprint "Connector_JST:JST_SH_BM03B-SRSS-TB_1x03-1MP_P1.00mm_Vertical")
     )
     (path "/d91dbeff-81c6-4fb8-bb3a-36a08837981c"
       (reference "J2") (unit 1) (value "Serial") (footprint "footprints:Jack_3.5mm_PJ320E_Horizontal_reversible")
@@ -3737,7 +3737,7 @@
       (reference "J3") (unit 1) (value "BATTERY_CONN_DEANS") (footprint "local-libraries:battery_connector_THT")
     )
     (path "/0024d4dc-bd5d-4def-a2be-39a78e329b8f"
-      (reference "J5") (unit 1) (value "S3B-PH-SM4-TB(LF)(SN)") (footprint "Connector_JST:JST_PH_S3B-PH-SM4-TB_1x03-1MP_P2.00mm_Horizontal")
+      (reference "J5") (unit 1) (value "S3B-PH-SM4-TB(LF)(SN)") (footprint "Connector_JST:JST_SH_BM03B-SRSS-TB_1x03-1MP_P1.00mm_Vertical")
     )
     (path "/49e8e7c0-6978-4c62-8c73-5e4e14bca074"
       (reference "J7") (unit 1) (value "trackball") (footprint "Library:6_PinHeader")
