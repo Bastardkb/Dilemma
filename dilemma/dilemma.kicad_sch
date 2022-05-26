@@ -2537,7 +2537,7 @@
     (property "Value" "BATTERY_CONN_DEANS" (id 1) (at 180.975 81.4581 90)
       (effects (font (size 1.143 1.143)) (justify left))
     )
-    (property "Footprint" "Connectors:1X02_LOCK" (id 2) (at 184.15 83.82 0)
+    (property "Footprint" "local-libraries:battery_connector_THT" (id 2) (at 184.15 83.82 0)
       (effects (font (size 0.508 0.508)) hide)
     )
     (property "Datasheet" "" (id 3) (at 176.53 83.82 0)
@@ -3735,7 +3735,7 @@
       (reference "J2") (unit 1) (value "Serial") (footprint "footprints:Jack_3.5mm_PJ320E_Horizontal_reversible")
     )
     (path "/33a2f796-a38b-4191-afd9-29b38b8cb7e2"
-      (reference "J3") (unit 1) (value "BATTERY_CONN_DEANS") (footprint "Connectors:1X02_LOCK")
+      (reference "J3") (unit 1) (value "BATTERY_CONN_DEANS") (footprint "local-libraries:battery_connector_THT")
     )
     (path "/0024d4dc-bd5d-4def-a2be-39a78e329b8f"
       (reference "J5") (unit 1) (value "S3B-PH-SM4-TB(LF)(SN)") (footprint "Connector_JST:JST_PH_S3B-PH-SM4-TB_1x03-1MP_P2.00mm_Horizontal")
