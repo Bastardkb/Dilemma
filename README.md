@@ -1,38 +1,44 @@
-# Dilemma keyboard
+## Dilemma keyboard
 
-# wishlist 
+A vertical stagger low-profile keyboard with mods.
+![](pics/1a.PNG)
 
-### mandatory
-- mx and choc
-- trackpad
-- heavy pinky stagger
-- elite-c / splinky footprint
-- audio jack connector 
+### Features
 
-### nice to have
-
-features: 
-
-- ~~4x6 breakable down to 3x5~~
-- reversible
-- oled, rotary encoder
-- splitkb tenting puck 
-- ~~per key rgb~~
-- underglow rgb
-- usb-c footprint on top of audio jack
-
-nice!nano:
-
-- pinout compatibility
-- on/off switch, battery connector  
+- Heavy pinky stagger
+- MX and choc compatible
+- Reversible PCB
+- Elite-C / Splinky / Nice!Nano compatible
 
 
-Mods:
+### Wireless abilities
 
-- sdl sca vcc gnd breakout (tht)
-- detachable trackpad part, with 2 screws, to make other mods installable instead....
+ZMK does not support input devices at the moment, and QMK does not support BLE.
+
+However, as this is meant to be a portable keyboard, some ground work has been laid:
+
+- pinout compatible with nice!nano
+- 2 battery connectors footprints: JST, and THT
+- on / off button footprint
 
 
-# License 
+### BOM
 
-Licensed under CERN-OHL-W v2
+// TODO
+
+## Mods
+
+### Cirque trackpad
+
+This is the first mod made for the keyboard - so it can function as a standalone input device.
+
+It requires an additional PCB, found here: https://github.com/Bastardkb/dilemma-cirque
+
+
+### Others / in progress
+
+The PCB has available connectors for:
+
+- oled 
+- rotary encoder
+
