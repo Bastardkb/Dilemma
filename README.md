@@ -34,6 +34,8 @@ This is the first mod made for the keyboard - so it can function as a standalone
 
 It requires an additional PCB, found here: https://github.com/Bastardkb/dilemma-cirque
 
+// TODO instructions there on how to install it, with pullups
+
 
 ### Others / in progress
 
