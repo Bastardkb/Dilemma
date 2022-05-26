@@ -969,7 +969,6 @@
     )
   )
 
-
   (junction (at 308.61 127) (diameter 0) (color 0 0 0 0)
     (uuid 0a795faf-e650-4b3f-ba49-3e7379cfa143)
   )
@@ -2724,7 +2723,7 @@
     (uuid 59d2370e-e0ba-45a7-99f1-84fa16580e24)
     (property "Reference" "PSW1" (id 0) (at 179.07 145.415 0))
     (property "Value" "SW_DPDT_x2" (id 1) (at 179.07 147.955 0))
-    (property "Footprint" "used_footprints:Switch_MSK-12C01-07" (id 2) (at 177.165 146.05 0)
+    (property "Footprint" "local-libraries:Switch_MSK-12C01-07" (id 2) (at 177.165 146.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 177.165 146.05 0)
@@ -3771,7 +3770,7 @@
       (reference "O2") (unit 1) (value "OLED") (footprint "footprints:PinHeader_1x04_P2.54mm_Vertical")
     )
     (path "/59d2370e-e0ba-45a7-99f1-84fa16580e24"
-      (reference "PSW1") (unit 1) (value "SW_DPDT_x2") (footprint "used_footprints:Switch_MSK-12C01-07")
+      (reference "PSW1") (unit 1) (value "SW_DPDT_x2") (footprint "local-libraries:Switch_MSK-12C01-07")
     )
     (path "/4acaff23-3513-4df1-ad8e-582535069bb0"
       (reference "R3") (unit 1) (value "4.7k") (footprint "footprints:R_1206_handsolder_reversible")
