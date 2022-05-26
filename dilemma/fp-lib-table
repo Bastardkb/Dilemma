@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name "footprints")(type "KiCad")(uri "${KIPRJMOD}/../keyboard-libraries/footprints")(options "")(descr ""))
+  (lib (name "local-libraries")(type "KiCad")(uri "${KIPRJMOD}/../local-libraries")(options "")(descr ""))
 )
