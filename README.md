@@ -9,6 +9,7 @@ A vertical stagger low-profile keyboard with mods.
 - MX and choc compatible
 - Reversible PCB
 - Elite-C / Splinky / Nice!Nano compatible
+- Tenting puck footprint
 
 
 ### Wireless abilities
