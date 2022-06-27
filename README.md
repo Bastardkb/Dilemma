@@ -1,7 +1,7 @@
 ## Dilemma keyboard
 
 A vertical stagger low-profile keyboard with mods.
-![](pics/1a.PNG)
+![](pics/1b.jpg)
 
 ### Features
 
