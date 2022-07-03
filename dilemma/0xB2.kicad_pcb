@@ -6038,7 +6038,7 @@
     (pad "6" smd rect (at -0.25 -1.362) (size 0.28 1.25) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 87 "unconnected-(J113-Pad6)") (pinfunction "Pin_6") (pintype "passive+no_connect") (tstamp fcf21020-617e-4d4c-9597-2d6f2d6c8be5))
     (pad "7" smd rect (at 0.25 -1.362) (size 0.28 1.25) (layers "F.Cu" "F.Paste" "F.Mask")
-      (net 88 "unconnected-(J113-Pad7)") (pinfunction "Pin_7") (pintype "passive") (tstamp 8ed28688-a322-4d7a-a90e-e3865aeae928))
+      (net 88 "unconnected-(J113-Pad7)") (pinfunction "Pin_7") (pintype "passive+no_connect") (tstamp 8ed28688-a322-4d7a-a90e-e3865aeae928))
     (pad "8" smd rect (at 0.75 -1.362) (size 0.28 1.25) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 80 "mosi_l") (pinfunction "Pin_8") (pintype "passive") (tstamp 8bc42bf5-3610-4e8c-ad02-9d0a443c1dda))
     (pad "9" smd rect (at 1.25 -1.362) (size 0.28 1.25) (layers "F.Cu" "F.Paste" "F.Mask")
