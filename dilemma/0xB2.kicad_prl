@@ -9,7 +9,7 @@
     "opacity": {
       "pads": 1.0,
       "tracks": 1.0,
-      "vias": 1.0,
+      "vias": 0.41999998688697815,
       "zones": 0.46000000834465027
     },
     "ratsnest_display_mode": 0,
@@ -36,6 +36,7 @@
       8,
       9,
       10,
+      12,
       13,
       14,
       15,
@@ -60,7 +61,7 @@
       35,
       36
     ],
-    "visible_layers": "900f3ff_ffffffff",
+    "visible_layers": "800f1cf_ffffffff",
     "zone_display_mode": 1
   },
   "meta": {
