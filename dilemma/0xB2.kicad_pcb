@@ -7255,7 +7255,7 @@
 
   (footprint "local-libraries:kibuzzard-61F01A92" (layer "B.Cu")
     (tedit 61F01A92) (tstamp 136f24ab-7b8a-4b96-87e9-b51854289072)
-    (at 201.07 44.09 -90)
+    (at 143.48 51.74 -90)
     (descr "Converted using: scripting")
     (tags "svg2mod")
     (attr board_only exclude_from_pos_files exclude_from_bom)
@@ -11957,7 +11957,7 @@
   (gr_text "GND" (at 146.89 91.22) (layer "B.SilkS") (tstamp d2e150bb-a27f-488b-ba03-d17bcdf97bd7)
     (effects (font (size 0.8 0.8) (thickness 0.12)) (justify mirror))
   )
-  (gr_text "BastardKB x Freznel x plut0nium" (at 202.355 36.429072 90) (layer "B.SilkS") (tstamp d97cb9e5-e1de-4528-aee5-e0e31141e6d5)
+  (gr_text "BastardKB x Freznel x plut0nium" (at 144.765 44.079072 90) (layer "B.SilkS") (tstamp d97cb9e5-e1de-4528-aee5-e0e31141e6d5)
     (effects (font (size 0.8 0.8) (thickness 0.12)) (justify left mirror))
   )
   (gr_text "C5R4" (at 134.675 86.9475) (layer "B.SilkS") (tstamp dc17e151-85cb-4597-871e-ac2e8629b14b)
