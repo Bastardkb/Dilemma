@@ -7,9 +7,9 @@
     "high_contrast_mode": 0,
     "net_color_mode": 1,
     "opacity": {
-      "pads": 0.75,
-      "tracks": 0.4699999988079071,
-      "vias": 0.4000000059604645,
+      "pads": 0.8500000238418579,
+      "tracks": 0.9100000262260437,
+      "vias": 0.9100000262260437,
       "zones": 1.0
     },
     "ratsnest_display_mode": 0,
