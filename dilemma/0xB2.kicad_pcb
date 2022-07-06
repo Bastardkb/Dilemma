@@ -9614,7 +9614,7 @@
     (property "Sheetfile" "0xB2.kicad_sch")
     (property "Sheetname" "")
     (path "/023b8036-b37e-4e6b-b316-94c2bd8af4ab")
-    (attr smd)
+    (attr smd exclude_from_pos_files exclude_from_bom)
     (fp_text reference "J105" (at 0 3.3) (layer "B.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp e4350160-e03a-4ed8-a4b4-a42cb337f1d9)
