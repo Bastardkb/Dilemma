@@ -5,9 +5,11 @@
   (paper "A4")
 
   (title_block
-    (title "0xB2 - Splinky")
-    (rev "2")
-    (company "plut0nium")
+    (title "Dilemma")
+    (date "2022-07-12")
+    (rev "1")
+    (company "plut0nium x bastardkb x freznel")
+    (comment 1 "Licensed under CERN-OHL-W v2")
   )
 
   (lib_symbols
@@ -2506,7 +2508,6 @@
       )
     )
   )
-
 
   (junction (at 396.24 38.1) (diameter 0) (color 0 0 0 0)
     (uuid 024aec87-418d-43e2-982b-d40b3ec576b4)
