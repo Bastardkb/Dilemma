@@ -95,7 +95,7 @@ If building the DIY version, you will also need:
 | Cables                  | 2      |               |
 
 
-### 3d printed low profile case
+### 3d printed thin
 
 | Part name              | Amount          | Link / source           |
 | ---------------------- | --------------- | ----------------------- |
@@ -106,7 +106,7 @@ If building the DIY version, you will also need:
 
 The case is reversible.
 
-### 3d printed high profile case with tenting pucks
+### 3d printed less-thin case with tenting pucks
 
 Accomodates the Splitkb tenting puck, to be used with a Manfrotto tripod.
 
