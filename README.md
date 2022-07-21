@@ -4,7 +4,7 @@ A vertical stagger low-profile keyboard with mods.
 
 - [Features](#features)
 - [Versions](#versions)
-- [Wireless abilities](#versions)
+- [Wireless abilities](#wireless-abilities)
 - [BOM](#bom)
   - [DIY version](#diy-version)
   - [Assembled version](#assembled-version)
