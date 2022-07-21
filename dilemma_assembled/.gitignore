@@ -1,3 +1,5 @@
 # manufacturing outputs
 jlcpcb/*
 gerber/*
+fabrication-output
+fabrication-output/*
