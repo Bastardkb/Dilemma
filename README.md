@@ -8,7 +8,7 @@ A vertical stagger low-profile keyboard with mods.
 - Heavy pinky stagger
 - MX and choc compatible
 - Reversible PCB
-- Elite-C / Splinky / Nice!Nano compatible
+- Elite-pi / Splinky / Nice!Nano compatible
 - Tenting puck footprint
 
 ### Versions
