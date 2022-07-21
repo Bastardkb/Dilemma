@@ -1,7 +1,17 @@
 # Dilemma keyboard
 
 A vertical stagger low-profile keyboard with mods.
-![](pics/1a.PNG)
+
+- [Features](#features)
+- [Versions](#versions)
+- [Wireless abilities](#versions)
+- [BOM](#bom)
+  - [DIY version](#diy-version)
+  - [Assembled version](#assembled-version)
+  - [Trackpad mod](#trackpad-mod)
+  - [3d printed thin case](#3d-printed-thin-case)
+  - [3d printed less-thin case with tenting pucks](#3d-printed-less-thin-case-with-tenting-pucks)
+- [Others/In progress](#bom)
 
 ## Features
 
@@ -115,7 +125,7 @@ If building the DIY version, you will also need:
 | Part name               | Amount | Link / source |
 | ----------------------- | ------ | ------------- |
 | SOD123 Resistor, 5kOhms | 2      |               |
-| Cables                  | 2      |               |
+| Cables                  |        |               |
 
 
 ### 3d printed thin case
