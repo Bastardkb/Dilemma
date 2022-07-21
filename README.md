@@ -1,54 +1,111 @@
-# 0xB2 - splinky
-Pro-Micro/Elite-C replacement with USB-C and RP2040.
+## Dilemma keyboard
 
-Designed for use in custom mechanical (split) keyboards, but many other uses are possible.
+A vertical stagger low-profile keyboard with mods.
+![](pics/1a.PNG)
 
-![Splinky v2](pcb/doc/splinky_v1_photo.jpg?raw=true "Splinvy v1")
+### Features
 
-## Features:
+- Heavy pinky stagger
+- MX and choc compatible
+- Reversible PCB
+- Elite-C / Splinky / Nice!Nano compatible
+- Tenting puck footprint
 
- * Pro-micro / Sparkfun RP2040 compatible footprint, with 5 extra pins at bottom (Elite-C style)
- * Raspberry Pi RP2040 MCU
- * Up to 16MB flash memory _(depending on component selection and availability)_
- * User LED & USB VBUS detect
- * Low profile USB-C mid-mount connector
- * Designed to be manufactured and assembled by all common PCBA services (including JLCPCB)
+### Versions
 
-<!--![Splinky v2](pcb/doc/render_v2.png?raw=true "Splinky v2 Render")-->
+There are 2 versions of the dilemma, in 2 folders:
 
-## Pinout
+- `dilemma`, for DIY that requires an additional MCU (eg. kb2040)
+- `dilemma_assembled`, for PCB assembly
 
-The pinout is compatible with the widely available [SparkFun RP2040](https://www.sparkfun.com/products/18288), with extra GPIO12..16 pins broken out on the lower side.
+The Dilemma is **made for rp2040**, so if you go with the DIY version you should source your MCU board accordingly.
 
-USB VBUS detection on GPIO19.
+### Wireless abilities
 
-> This pinout is a _de facto_ standard, established by actors of the MK community (see discussions in `#RP2040` on the bastardkb Discord server) 
+ZMK does not support input devices at the moment, and QMK does not support BLE.
 
-Additionnaly, a user LED is tied to GPIO17, can be used for UF2 bootloader status indication, or any other purpose (or turned OFF, no annoying always-on power LED).
+However, as this is meant to be a portable keyboard, some ground work has been laid:
 
-## Programming
+- pinout compatible with nice!nano
+- 2 battery connectors footprints: JST, and THT
+- on / off button footprint
 
-The splinky uses a basic two-button reset circuitry.
+### BOM
 
-In order to put the board in bootloader mode, press briefly the RESET button (marked **R**) while holding the BOOT button (the second one).
-If the buttons are not reachable (soldered upside down), the /RST pad can be shorted to GND, while the two smaller BOOT pads (next to D8) are maintained shorted (v2 only).
+The PCB can work on standalone.
 
-## Manufacturing
+Depending on which version you go with, you will need to source different items.
 
-Releases contain required information (gerbers, bom, pos) for assembly by JLCPCB.
+On top of the basic build, you can add a range of options :
 
-## Releases
+- 3d printed case
+- mods (eg. trackpad)
 
- * **v3** updated pinout - current release
- * **v2** first public release
- * **v1** first prototyping run
+Both versions require:
 
-## Credits
+| Part name       | Amount | Link / source |
+| --------------- | ------ | ------------- |
+| Audio jack      | 2      |               |
+| Button, 4x4x1.5 | 2      |               |
 
- * Raspberry Pi Foundation
-   * [RP2040 Datasheet](https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf)
-   * [Hardware design with RP2040](https://datasheets.raspberrypi.com/rp2040/hardware-design-with-rp2040.pdf)
- * [SparkFun Pro Micro - RP2040](https://www.sparkfun.com/products/18288)
- * [Adafruit kb2040](https://learn.adafruit.com/adafruit-kb2040)
- * [sea-picro](https://github.com/joshajohnson/sea-picro) - _similar project, I borrowed some cheaper component references ^^_
- * ...
+#### DIY version
+
+On top of the parts mentioned above, you will need:
+
+| Part name        | Amount | Link / source               |
+| ---------------- | ------ | --------------------------- |
+| SOD123 Diodes    | 34     | Farnell, Mouser, Aliexpress |
+| RP2040 MCU board | 2      | KB2040, elite-pi...         |
+| Header pins      | 2*12   |                             |
+
+
+#### Assembled version
+
+No further parts are necessary. If you install the trackpad mod, you will need some specific components, mentioned below.
+
+
+#### Trackpad mod
+
+This is the first mod made for the keyboard - so it can function as a standalone input device.
+
+It uses I2C on the DIY version, and SPI on the assembled version.
+
+The DIY version requires removing 2 resistors from the trackpad (see build guide).
+
+When installing the trackpad mod, you will need:
+
+| Part name           | Amount | Link / source           |
+| ------------------- | ------ | ----------------------- |
+| M3 screw, torx, 6mm | 4      | Conrad                  |
+| M3x5x5 screw insert | 4      | Aliexpress              |
+| 3d printed parts    |        | See `mechanical` folder |
+
+If building the PCBA version, you will also need:
+
+| Part name                                                     | Amount | Link / source |
+| ------------------------------------------------------------- | ------ | ------------- |
+| 12-position FPC cable, 0.5mm pitch, same side contacts, 100mm | 1      | Farnell       |
+
+
+If building the DIY version, you will also need:
+
+| Part name               | Amount | Link / source |
+| ----------------------- | ------ | ------------- |
+| SOD123 Resistor, 5kOhms | 2      |               |
+| Cables                  | 2      |               |
+
+
+#### 3d printed low profile case
+
+// todo
+
+#### 3d printed high profile case with tenting pucks
+
+// todo
+
+### Others / in progress
+
+The PCB has available connectors for:
+
+- oled 
+
