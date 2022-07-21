@@ -61,10 +61,14 @@ On top of the parts mentioned above, you will need:
 
 ### Assembled version
 
+![](pics/1d.png)
+
 No further parts are necessary. If you install the trackpad mod, you will need some specific components, mentioned below.
 
 
 ### Trackpad mod
+
+![](pics/1e.jpg)
 
 This is the first mod made for the keyboard - so it can function as a standalone input device.
 
@@ -95,7 +99,9 @@ If building the DIY version, you will also need:
 | Cables                  | 2      |               |
 
 
-### 3d printed thin
+### 3d printed thin case
+
+Designed for the minimum footprint possible, while still protecting the PCB.
 
 | Part name              | Amount          | Link / source           |
 | ---------------------- | --------------- | ----------------------- |
