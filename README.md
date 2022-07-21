@@ -97,11 +97,12 @@ If building the DIY version, you will also need:
 
 ### 3d printed low profile case
 
-| Part name           | Amount          | Link / source           |
-| ------------------- | --------------- | ----------------------- |
-| M3 screw, torx, 6mm | 6               | Conrad                  |
-| M3 nut              | 3               | Conrad                  |
-| 3d case             | 1 right, 1 left | See `mechanical` folder |
+| Part name              | Amount          | Link / source           |
+| ---------------------- | --------------- | ----------------------- |
+| M3 screw, torx, 6mm    | 6               | Conrad                  |
+| M3 nut                 | 3               | Conrad                  |
+| Anti slip pads, 10x2mm | 12              | Aliexpress              |
+| 3d case                | 1 right, 1 left | See `mechanical` folder |
 
 The case is reversible.
 
@@ -109,13 +110,19 @@ The case is reversible.
 
 Accomodates the Splitkb tenting puck, to be used with a Manfrotto tripod.
 
-| Part name             | Amount          | Link / source           |
-| --------------------- | --------------- | ----------------------- |
-| M3x5x5 screw insert   | 6               | Conrad                  |
-| M3 nut                | 3               | Conrad                  |
-| Tenting puck assembly | 1               | Splitkb                 |
-| Manfrotto tripod      | 2               | Manfrotto               |
-| 3d case               | 1 right, 1 left | See `mechanical` folder |
+
+![](pics/1c.jpg)
+
+BOM:
+
+| Part name              | Amount          | Link / source           |
+| ---------------------- | --------------- | ----------------------- |
+| M3x5x5 screw insert    | 6               | Conrad                  |
+| M3 nut                 | 3               | Conrad                  |
+| Anti slip pads, 10x2mm | 12              | Aliexpress              |
+| Tenting puck assembly  | 1               | Splitkb                 |
+| Manfrotto tripod       | 2               | Manfrotto               |
+| 3d case                | 1 right, 1 left | See `mechanical` folder |
 
 The case is reversible.
 
