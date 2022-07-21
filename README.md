@@ -36,35 +36,52 @@ The PCB can work on standalone.
 
 Depending on which version you go with, you will need to source different items.
 
-On top of the basic build, you can add a range of options :
+On top of the basic build, you can add a range of options, which require additional components:
 
 - 3d printed case
 - mods (eg. trackpad)
 
-Both versions require:
+Both versions of the Dilemma require:
 
 | Part name       | Amount | Link / source |
 | --------------- | ------ | ------------- |
 | Audio jack      | 2      |               |
 | Button, 4x4x1.5 | 2      |               |
 
+
 ### DIY version
+
+![](pics/1f.jpg)
 
 On top of the parts mentioned above, you will need:
 
-| Part name        | Amount | Link / source               |
-| ---------------- | ------ | --------------------------- |
-| SOD123 Diodes    | 34     | Farnell, Mouser, Aliexpress |
-| RP2040 MCU board | 2      | KB2040, elite-pi...         |
-| Header pins      | 2*12   |                             |
+| Part name               | Amount | Link / source               |
+| ----------------------- | ------ | --------------------------- |
+| SOD123 Diodes           | 34     | Farnell, Mouser, Aliexpress |
+| Dilemma PCB, DIY, 1.2mm | 2      | See Release section         |
+| RP2040 MCU board        | 2      | KB2040, elite-pi...         |
+| Header pins             | 2*12   |                             |
 
+Please note, **the Dilemma is compatible only with rp2040 boards !**
+
+The release section contains the latest gerbers.
+
+Order in 1.2mm thickness.
 
 ### Assembled version
 
 ![](pics/1d.png)
 
-No further parts are necessary. If you install the trackpad mod, you will need some specific components, mentioned below.
 
+On top of the parts mentioned above, you will need:
+
+| Part name                     | Amount | Link / source       |
+| ----------------------------- | ------ | ------------------- |
+| Dilemma PCB, assembled, 1.2mm | 2      | See Release section |
+
+The release section contains the latest gerbers with BOM and POS files.
+
+Order in 1.2mm thickness.
 
 ### Trackpad mod
 
