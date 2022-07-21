@@ -1,9 +1,9 @@
-## Dilemma keyboard
+# Dilemma keyboard
 
 A vertical stagger low-profile keyboard with mods.
 ![](pics/1a.PNG)
 
-### Features
+## Features
 
 - Heavy pinky stagger
 - MX and choc compatible
@@ -11,7 +11,7 @@ A vertical stagger low-profile keyboard with mods.
 - Elite-pi / Splinky / Nice!Nano compatible
 - Tenting puck footprint
 
-### Versions
+## Versions
 
 There are 2 versions of the dilemma, in 2 folders:
 
@@ -20,7 +20,7 @@ There are 2 versions of the dilemma, in 2 folders:
 
 The Dilemma is **made for rp2040**, so if you go with the DIY version you should source your MCU board accordingly.
 
-### Wireless abilities
+## Wireless abilities
 
 ZMK does not support input devices at the moment, and QMK does not support BLE.
 
@@ -30,7 +30,7 @@ However, as this is meant to be a portable keyboard, some ground work has been l
 - 2 battery connectors footprints: JST, and THT
 - on / off button footprint
 
-### BOM
+## BOM
 
 The PCB can work on standalone.
 
@@ -48,7 +48,7 @@ Both versions require:
 | Audio jack      | 2      |               |
 | Button, 4x4x1.5 | 2      |               |
 
-#### DIY version
+### DIY version
 
 On top of the parts mentioned above, you will need:
 
@@ -59,12 +59,12 @@ On top of the parts mentioned above, you will need:
 | Header pins      | 2*12   |                             |
 
 
-#### Assembled version
+### Assembled version
 
 No further parts are necessary. If you install the trackpad mod, you will need some specific components, mentioned below.
 
 
-#### Trackpad mod
+### Trackpad mod
 
 This is the first mod made for the keyboard - so it can function as a standalone input device.
 
@@ -95,15 +95,15 @@ If building the DIY version, you will also need:
 | Cables                  | 2      |               |
 
 
-#### 3d printed low profile case
+### 3d printed low profile case
 
 // todo
 
-#### 3d printed high profile case with tenting pucks
+### 3d printed high profile case with tenting pucks
 
 // todo
 
-### Others / in progress
+## Others / in progress
 
 The PCB has available connectors for:
 
