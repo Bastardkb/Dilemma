@@ -1,0 +1,8 @@
+(fp_lib_table
+  (lib (name "0xLib_Package_DFN_QFN")(type "KiCad")(uri "${KICAD6_USER_LIB}/Package_DFN_QFN.pretty")(options "")(descr ""))
+  (lib (name "0xLib_USB_Type-C")(type "KiCad")(uri "${KICAD6_USER_LIB}/USB_Type-C.pretty")(options "")(descr ""))
+  (lib (name "0xLib_Connectors")(type "KiCad")(uri "${KICAD6_USER_LIB}/Connectors.pretty")(options "")(descr ""))
+  (lib (name "0xLib_Diode_Transistor")(type "KiCad")(uri "${KICAD6_USER_LIB}/Diode_Transistor.pretty")(options "")(descr ""))
+  (lib (name "0xB2_drawings")(type "KiCad")(uri "${KIPRJMOD}/drawings.pretty")(options "")(descr ""))
+  (lib (name "local-libraries")(type "KiCad")(uri "${KIPRJMOD}/local-libraries")(options "")(descr ""))
+)
