@@ -24,11 +24,13 @@ The Dilemma is **made for rp2040**, so if you go with the DIY version you should
 
 ZMK does not support input devices at the moment, and QMK does not support BLE.
 
-However, as this is meant to be a portable keyboard, some ground work has been laid:
+However, as this is meant to be a portable keyboard, some ground work has been laid with the DIY version:
 
 - pinout compatible with nice!nano
 - 2 battery connectors footprints: JST, and THT
 - on / off button footprint
+
+At this time, the assembled version does not support wireless.
 
 ## BOM
 
