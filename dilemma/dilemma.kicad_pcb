@@ -9730,7 +9730,7 @@
   (gr_text "HAND" (at 231.588472 45.84469) (layer "F.SilkS") (tstamp b2ccbead-1413-4575-87eb-45457faefffb)
     (effects (font (size 0.8 0.8) (thickness 0.12)))
   )
-  (gr_text "0.1b" (at 236.85 73.05) (layer "F.SilkS") (tstamp b57bbe4b-048e-4fcd-a746-5347f2d7c4ec)
+  (gr_text "0.1c" (at 236.85 73.05) (layer "F.SilkS") (tstamp b57bbe4b-048e-4fcd-a746-5347f2d7c4ec)
     (effects (font (size 0.8 0.8) (thickness 0.12)))
   )
   (gr_text "R2" (at 211.342297 51.176761) (layer "F.SilkS") (tstamp c0d55760-30bd-490e-b5bd-f182a77e1a61)
