@@ -2,6 +2,8 @@
 
 A vertical stagger low-profile keyboard with mods.
 
+![](pics/1g.jpg)
+
 - [Features](#features)
 - [Versions](#versions)
 - [Wireless abilities](#wireless-abilities)
@@ -63,8 +65,7 @@ Both versions of the Dilemma require:
 
 ### DIY version
 
-![](pics/1f.jpg)
-
+ 
 On top of the parts mentioned above, you will need:
 
 | Part name               | Amount | Link / source               |
