@@ -4,16 +4,17 @@ A vertical stagger low-profile keyboard with mods.
 
 ![](pics/1g.jpg)
 
-- [Features](#features)
-- [Versions](#versions)
-- [Wireless abilities](#wireless-abilities)
-- [BOM](#bom)
-  - [DIY version](#diy-version)
-  - [Assembled version](#assembled-version)
-  - [Trackpad mod](#trackpad-mod)
-  - [3d printed thin case](#3d-printed-thin-case)
-  - [3d printed less-thin case with tenting pucks](#3d-printed-less-thin-case-with-tenting-pucks)
-- [Others/In progress](#bom)
+- [Dilemma keyboard](#dilemma-keyboard)
+  - [Features](#features)
+  - [Versions](#versions)
+  - [Wireless abilities](#wireless-abilities)
+  - [BOM](#bom)
+    - [DIY version](#diy-version)
+    - [Assembled version](#assembled-version)
+    - [Trackpad mod](#trackpad-mod)
+    - [3d printed thin case](#3d-printed-thin-case)
+    - [3d printed less-thin case with tenting pucks](#3d-printed-less-thin-case-with-tenting-pucks)
+  - [Others / in progress](#others--in-progress)
 
 ## Features
 
@@ -153,7 +154,7 @@ BOM:
 
 | Part name              | Amount          | Link / source           |
 | ---------------------- | --------------- | ----------------------- |
-| M3x5x5 screw insert    | 6               | Conrad                  |
+| M3 screw, torx, 6mm    | 6               | Conrad                  |
 | M3 nut                 | 3               | Conrad                  |
 | Anti slip pads, 10x2mm | 12              | Aliexpress              |
 | Tenting puck assembly  | 1               | Splitkb                 |
