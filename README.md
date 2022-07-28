@@ -14,6 +14,8 @@ A vertical stagger low-profile keyboard with mods.
     - [Trackpad mod](#trackpad-mod)
     - [3d printed thin case](#3d-printed-thin-case)
     - [3d printed less-thin case with tenting pucks](#3d-printed-less-thin-case-with-tenting-pucks)
+  - [Build guide](#build-guide)
+  - [Support me on patreon](#support-me-on-patreon) 
   - [Others / in progress](#others--in-progress)
 
 ## Features
