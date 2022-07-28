@@ -167,6 +167,16 @@ The case is reversible.
 
 It needs to be printed at 0.2mm layer height supportless specifically for the nut inserts suport-less interfaces. If you are doing a different layer height, use supports.
 
+## Build guide
+
+https://docs.bastardkb.com/hc/en-us/sections/6848232395410-Dilemma
+
+## Support me on Patreon
+
+If you like the keyboard, please consider helping me with Patreon: https://www.patreon.com/bastardkb
+
+I post regular updates and hindsight on my work. I work full time on keyboard innovation, and this helps a lot !
+
 ## Others / in progress
 
 The PCB has available connectors for:
