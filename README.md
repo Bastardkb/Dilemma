@@ -143,6 +143,8 @@ Designed for the minimum footprint possible, while still protecting the PCB.
 
 The case is reversible.
 
+It needs to be printed at 0.2mm layer height supportless specifically for the nut inserts suport-less interfaces. If you are doing a different layer height, use supports. 
+
 ### 3d printed less-thin case with tenting pucks
 
 Accomodates the Splitkb tenting puck, to be used with a Manfrotto tripod.
@@ -162,6 +164,8 @@ BOM:
 | 3d case                | 1 right, 1 left | See `mechanical` folder |
 
 The case is reversible.
+
+It needs to be printed at 0.2mm layer height supportless specifically for the nut inserts suport-less interfaces. If you are doing a different layer height, use supports.
 
 ## Others / in progress
 
