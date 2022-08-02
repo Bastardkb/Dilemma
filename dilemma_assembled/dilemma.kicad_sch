@@ -5755,24 +5755,6 @@
     (pin "2" (uuid 3a86913b-d325-469d-99bf-10362833b6d6))
   )
 
-  (symbol (lib_id "power:GND") (at 601.345 34.925 0) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid 21fe163d-5c16-42b5-8408-6e6165b7b3e7)
-    (property "Reference" "#PWR0109" (id 0) (at 601.345 41.275 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (id 1) (at 601.189 41.9099 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "" (id 2) (at 601.345 34.925 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 601.345 34.925 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 06d89049-bb08-4c35-aa48-22c05c01103e))
-  )
-
   (symbol (lib_id "Device:R") (at 198.12 102.235 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 240ef12d-5727-43f1-8ff0-84f44af2df0d)
@@ -7489,24 +7471,6 @@
     (pin "2" (uuid f8194e4b-e2a1-4ceb-b78b-a55f62b021f3))
   )
 
-  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 601.345 32.385 0) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid c16eb0f2-fb9f-47b4-a16c-9ce01bbd9c9d)
-    (property "Reference" "H103" (id 0) (at 600.075 27.305 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "M4" (id 1) (at 600.075 44.577 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "local-libraries:MountingHole_3mm_Pad_thin" (id 2) (at 601.345 32.385 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (id 3) (at 601.345 32.385 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid e7dde0d3-3ac1-418e-87d9-d9726ff40441))
-  )
-
   (symbol (lib_id "Switch:SW_Push") (at 40.005 179.07 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid c30a3276-ac5c-4a68-880e-26478e1b53e4)
@@ -8235,9 +8199,6 @@
     (path "/2cb074dd-6c48-4e02-bb35-805b51be3a4d"
       (reference "#PWR0108") (unit 1) (value "GND") (footprint "")
     )
-    (path "/21fe163d-5c16-42b5-8408-6e6165b7b3e7"
-      (reference "#PWR0109") (unit 1) (value "GND") (footprint "")
-    )
     (path "/9c465d0a-3acf-44e4-926b-a8e6ae8ccd7b"
       (reference "#PWR0110") (unit 1) (value "GND") (footprint "")
     )
@@ -8387,9 +8348,6 @@
     )
     (path "/9cb3ab70-f859-494a-87ac-434fbc66c33e"
       (reference "H102") (unit 1) (value "M4") (footprint "local-libraries:MountingHole_3mm_Pad_thin")
-    )
-    (path "/c16eb0f2-fb9f-47b4-a16c-9ce01bbd9c9d"
-      (reference "H103") (unit 1) (value "M4") (footprint "local-libraries:MountingHole_3mm_Pad_thin")
     )
     (path "/b3d2b3b2-eee3-4354-96ae-35ebc3a7e3fd"
       (reference "H104") (unit 1) (value "M4") (footprint "local-libraries:MountingHole_3mm_Pad_thin")
