@@ -2,16 +2,21 @@
 
 A vertical stagger low-profile keyboard with mods.
 
-- [Features](#features)
-- [Versions](#versions)
-- [Wireless abilities](#wireless-abilities)
-- [BOM](#bom)
-  - [DIY version](#diy-version)
-  - [Assembled version](#assembled-version)
-  - [Trackpad mod](#trackpad-mod)
-  - [3d printed thin case](#3d-printed-thin-case)
-  - [3d printed less-thin case with tenting pucks](#3d-printed-less-thin-case-with-tenting-pucks)
-- [Others/In progress](#bom)
+![](pics/1g.jpg)
+
+- [Dilemma keyboard](#dilemma-keyboard)
+  - [Features](#features)
+  - [Versions](#versions)
+  - [Wireless abilities](#wireless-abilities)
+  - [BOM](#bom)
+    - [DIY version](#diy-version)
+    - [Assembled version](#assembled-version)
+    - [Trackpad mod](#trackpad-mod)
+    - [3d printed thin case](#3d-printed-thin-case)
+    - [3d printed less-thin case with tenting pucks](#3d-printed-less-thin-case-with-tenting-pucks)
+  - [Build guide](#build-guide)
+  - [Support me on patreon](#support-me-on-patreon) 
+  - [Others / in progress](#others--in-progress)
 
 ## Features
 
@@ -63,8 +68,7 @@ Both versions of the Dilemma require:
 
 ### DIY version
 
-![](pics/1f.jpg)
-
+ 
 On top of the parts mentioned above, you will need:
 
 | Part name               | Amount | Link / source               |
@@ -141,6 +145,8 @@ Designed for the minimum footprint possible, while still protecting the PCB.
 
 The case is reversible.
 
+It needs to be printed at 0.2mm layer height supportless specifically for the nut inserts suport-less interfaces. If you are doing a different layer height, use supports. 
+
 ### 3d printed less-thin case with tenting pucks
 
 Accomodates the Splitkb tenting puck, to be used with a Manfrotto tripod.
@@ -152,7 +158,7 @@ BOM:
 
 | Part name              | Amount          | Link / source           |
 | ---------------------- | --------------- | ----------------------- |
-| M3x5x5 screw insert    | 6               | Conrad                  |
+| M3 screw, torx, 6mm    | 6               | Conrad                  |
 | M3 nut                 | 3               | Conrad                  |
 | Anti slip pads, 10x2mm | 12              | Aliexpress              |
 | Tenting puck assembly  | 1               | Splitkb                 |
@@ -160,6 +166,18 @@ BOM:
 | 3d case                | 1 right, 1 left | See `mechanical` folder |
 
 The case is reversible.
+
+It needs to be printed at 0.2mm layer height supportless specifically for the nut inserts suport-less interfaces. If you are doing a different layer height, use supports.
+
+## Build guide
+
+https://docs.bastardkb.com/hc/en-us/sections/6848232395410-Dilemma
+
+## Support me on Patreon
+
+If you like the keyboard, please consider helping me with Patreon: https://www.patreon.com/bastardkb
+
+I post regular updates and hindsight on my work. I work full time on keyboard innovation, and this helps a lot !
 
 ## Others / in progress
 
