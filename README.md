@@ -1,22 +1,34 @@
-# Dilemma keyboard
+![](pics/logo.png)
 
-A vertical stagger low-profile keyboard with mods.
+<div align="center">
+
+![GitHub Issues](https://img.shields.io/github/issues/bastardkb/dilemma?style=for-the-badge)
+![GitHub License](https://img.shields.io/github/license/bastardkb/dilemma?style=for-the-badge)
+</div>
+
+---
+
+The Dilemma is a vertical stagger low-profile keyboard with mods.
 
 ![](pics/1g.jpg)
 
-- [Dilemma keyboard](#dilemma-keyboard)
-  - [Features](#features)
-  - [Versions](#versions)
-  - [Wireless abilities](#wireless-abilities)
-  - [BOM](#bom)
-    - [DIY version](#diy-version)
-    - [Assembled version](#assembled-version)
-    - [Trackpad mod](#trackpad-mod)
-    - [3d printed thin case](#3d-printed-thin-case)
-    - [3d printed less-thin case with tenting pucks](#3d-printed-less-thin-case-with-tenting-pucks)
-  - [Build guide](#build-guide)
-  - [Support me on patreon](#support-me-on-patreon) 
-  - [Others / in progress](#others--in-progress)
+## Table of contents
+
+- [Features](#features)
+- [Versions](#versions)
+- [Wireless abilities](#wireless-abilities)
+- [BOM](#bom)
+  - [DIY version](#diy-version)
+  - [Assembled version](#assembled-version)
+  - [Trackpad mod](#trackpad-mod)
+  - [3d printed thin case](#3d-printed-thin-case)
+  - [3d printed less-thin case with tenting pucks](#3d-printed-less-thin-case-with-tenting-pucks)
+- [Build guide](#build-guide)
+- [Support me on patreon](#support-me-on-patreon) 
+- [Others / in progress](#others--in-progress)
+
+
+---
 
 ## Features
 
