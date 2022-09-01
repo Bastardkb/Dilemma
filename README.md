@@ -127,6 +127,7 @@ When installing the trackpad mod, you will need:
 | ------------------- | ------ | ----------------------- |
 | M3 screw, torx, 6mm | 4      | Conrad                  |
 | M3x5x5 screw insert | 4      | Aliexpress              |
+| 35mm cirque trackpad    | 1       | TM035035-2024-003  / Mouser |
 | 3d printed parts    |        | See `mechanical` folder |
 
 If building the PCBA version, you will also need:
