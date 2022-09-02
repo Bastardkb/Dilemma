@@ -193,7 +193,7 @@
     (property "Sheetfile" "dilemma.kicad_sch")
     (property "Sheetname" "")
     (path "/1e5a4a4f-7ec1-4d5e-aab0-77eebafcd5cd")
-    (attr through_hole exclude_from_pos_files)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "SW102" (at 0 -8.255) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 6a2b03b8-10ad-41b5-8f74-76a2786b0f35)
@@ -411,7 +411,7 @@
     (property "Sheetfile" "dilemma.kicad_sch")
     (property "Sheetname" "")
     (path "/ae6b057a-8520-4469-8c04-e1544917a44f")
-    (attr through_hole exclude_from_pos_files)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "SW112" (at 0 -8.255) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 303592a7-9780-4036-a0e1-e0391973eea5)
@@ -495,7 +495,7 @@
     (property "Sheetfile" "dilemma.kicad_sch")
     (property "Sheetname" "")
     (path "/0aa4d9f2-137f-407a-ab80-92e4471b52a7")
-    (attr through_hole exclude_from_pos_files)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "SW109" (at 0 -8.255) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 7a00d897-fcbc-4b98-ae7d-33ea3eeb837d)
@@ -579,7 +579,7 @@
     (property "Sheetfile" "dilemma.kicad_sch")
     (property "Sheetname" "")
     (path "/8a3add20-c253-4adc-b840-becd588ad034")
-    (attr through_hole exclude_from_pos_files)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "SW113" (at 0 -8.255) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 81103c24-b774-4ba6-9fa9-a61d63b7db9a)
@@ -1342,7 +1342,7 @@
     (property "Sheetfile" "dilemma.kicad_sch")
     (property "Sheetname" "")
     (path "/2f4248fc-bac1-4746-8fce-b7d7e338527c")
-    (attr exclude_from_pos_files)
+    (attr exclude_from_pos_files exclude_from_bom)
     (fp_text reference "H101" (at 0 -3.7) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c8133f0d-8a22-43bc-b73b-8060d4b3cffb)
@@ -1476,7 +1476,7 @@
     (property "Sheetfile" "dilemma.kicad_sch")
     (property "Sheetname" "")
     (path "/9ba28921-4e7a-475b-95b0-d10633adccee")
-    (attr exclude_from_pos_files)
+    (attr exclude_from_pos_files exclude_from_bom)
     (fp_text reference "J108" (at 0 -2.54) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 66214d0d-d4a2-4de0-99fb-d165202ac430)
@@ -1669,7 +1669,7 @@
     (property "Sheetfile" "dilemma.kicad_sch")
     (property "Sheetname" "")
     (path "/69a7514c-f517-4b46-bf93-1effc96b0e95")
-    (attr through_hole exclude_from_pos_files)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "SW106" (at 0 -8.255) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 23daadb6-e59f-4ece-94c6-f7782caa9d03)
@@ -1753,7 +1753,7 @@
     (property "Sheetfile" "dilemma.kicad_sch")
     (property "Sheetname" "")
     (path "/9cb3ab70-f859-494a-87ac-434fbc66c33e")
-    (attr exclude_from_pos_files)
+    (attr exclude_from_pos_files exclude_from_bom)
     (fp_text reference "H102" (at 0 -3.7) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 30360a66-40ac-485e-8d35-711de91ef173)
@@ -2248,7 +2248,7 @@
     (property "Sheetfile" "dilemma.kicad_sch")
     (property "Sheetname" "")
     (path "/0e5c956a-0664-4fcf-9bb1-1eae993c2225")
-    (attr smd exclude_from_pos_files)
+    (attr smd exclude_from_pos_files exclude_from_bom)
     (fp_text reference "SW110" (at 0 -4.05 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 92d01065-7530-4e54-bf5c-371ba88d9464)
@@ -2295,7 +2295,7 @@
     (property "Sheetfile" "dilemma.kicad_sch")
     (property "Sheetname" "")
     (path "/a1e7e706-b8af-4122-8d12-1312d82748e6")
-    (attr through_hole exclude_from_pos_files)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "J105" (at 0 -2.33) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 0fa51c85-3803-4f50-9079-561770d38db3)
@@ -2517,7 +2517,7 @@
     (property "Sheetfile" "dilemma.kicad_sch")
     (property "Sheetname" "")
     (path "/afadc09f-0628-42ff-b630-9cf4ae0a8b3f")
-    (attr exclude_from_pos_files)
+    (attr exclude_from_pos_files exclude_from_bom)
     (fp_text reference "H108" (at 0 -3.7) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 2f7320a1-14be-4cf4-bdee-d9a3121d657e)
@@ -2560,7 +2560,7 @@
     (property "Sheetfile" "dilemma.kicad_sch")
     (property "Sheetname" "")
     (path "/323e7672-855c-4c2f-80c8-1a139e99473b")
-    (attr through_hole exclude_from_pos_files)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "SW116" (at 0 -8.255) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 5921600c-0005-45c1-8584-0904fb3685ea)
@@ -2687,7 +2687,7 @@
     (property "Sheetfile" "dilemma.kicad_sch")
     (property "Sheetname" "")
     (path "/f5322e2e-cac3-432e-bda8-0a4cf8376319")
-    (attr through_hole exclude_from_pos_files)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "SW119" (at 0 -8.255 -30) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 93db0e83-4f53-4546-baf3-58a6166f8dbc)
@@ -2814,7 +2814,7 @@
     (property "Sheetfile" "dilemma.kicad_sch")
     (property "Sheetname" "")
     (path "/39bb9734-8b7d-4247-bc38-bd4a5d9ed06f")
-    (attr through_hole exclude_from_pos_files)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "SW104" (at 0 -8.255) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 9a5121a8-b503-4e57-916a-020e94bcedf3)
@@ -3101,7 +3101,7 @@
     (property "Sheetfile" "dilemma.kicad_sch")
     (property "Sheetname" "")
     (path "/be982124-ae0b-4add-a6d8-2344db80a9aa")
-    (attr exclude_from_pos_files)
+    (attr exclude_from_pos_files exclude_from_bom)
     (fp_text reference "JP104" (at 0 -1.8 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 85e0cc82-ec2c-4552-9d59-953ef74f06f3)
@@ -3264,7 +3264,7 @@
     (property "Sheetfile" "dilemma.kicad_sch")
     (property "Sheetname" "")
     (path "/baa3e4f4-539c-4623-bcea-c749b3efacf8")
-    (attr exclude_from_pos_files)
+    (attr exclude_from_pos_files exclude_from_bom)
     (fp_text reference "JP112" (at 0 -1.8 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 8a620091-ca96-495f-aabc-835f155bc446)
@@ -3321,7 +3321,7 @@
     (property "Sheetfile" "dilemma.kicad_sch")
     (property "Sheetname" "")
     (path "/348a0c3a-4854-4149-8a7a-ae4295b639cb")
-    (attr through_hole exclude_from_pos_files)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "J102" (at 2.54 -13.97 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 564c737a-c22b-400c-8665-990100e2bad2)
@@ -3421,7 +3421,7 @@
     (property "Sheetfile" "dilemma.kicad_sch")
     (property "Sheetname" "")
     (path "/1aed41db-dfd3-4b90-b7a1-5c94e9557cf1")
-    (attr through_hole exclude_from_pos_files)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "SW117" (at 0 -8.255) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c5b831c4-2d27-4aea-81b1-4a795c2c2c90)
@@ -3505,7 +3505,7 @@
     (property "Sheetfile" "dilemma.kicad_sch")
     (property "Sheetname" "")
     (path "/eb84e2f0-c873-4eb9-b0db-dd71bfafb64c")
-    (attr through_hole exclude_from_pos_files)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "SW101" (at 0 -8.255) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b878f3f5-55cf-4907-8ebb-3594ce96d678)
@@ -3589,7 +3589,7 @@
     (property "Sheetfile" "dilemma.kicad_sch")
     (property "Sheetname" "")
     (path "/66096f4f-c798-4425-8537-e7adeb21bec3")
-    (attr through_hole exclude_from_pos_files)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "O101" (at 0 -2.33 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a27f7727-7dd2-4cb4-a780-123706d8c0c2)
@@ -3892,7 +3892,7 @@
     (property "Sheetfile" "dilemma.kicad_sch")
     (property "Sheetname" "")
     (path "/5ccba51b-82b7-45cf-91ae-52778ba511ad")
-    (attr through_hole exclude_from_pos_files)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "H110" (at 0 0.5) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 8192420f-56eb-4b6c-a1cb-584b3650cf12)
@@ -3913,7 +3913,7 @@
     (property "Sheetfile" "dilemma.kicad_sch")
     (property "Sheetname" "")
     (path "/64fe4ef0-94d6-4168-93a5-da4cb1d6b68d")
-    (attr through_hole exclude_from_pos_files)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "SW114" (at 0 -8.255) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp dd29506a-191a-4ba3-90f4-a2808d04cbbc)
@@ -4040,7 +4040,7 @@
     (property "Sheetfile" "dilemma.kicad_sch")
     (property "Sheetname" "")
     (path "/e78c6541-571c-4ae3-b37a-ce88f45e4767")
-    (attr exclude_from_pos_files)
+    (attr exclude_from_pos_files exclude_from_bom)
     (fp_text reference "JP108" (at 0 -1.8 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 51444498-181b-447f-9acd-c37e83a2526c)
@@ -4097,7 +4097,7 @@
     (property "Sheetfile" "dilemma.kicad_sch")
     (property "Sheetname" "")
     (path "/f149694e-4336-45f7-8a0b-aed91118ad18")
-    (attr exclude_from_pos_files)
+    (attr exclude_from_pos_files exclude_from_bom)
     (fp_text reference "H105" (at 0 -3.7) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 88f48398-5c01-40e2-bbeb-494423657d56)
@@ -4140,7 +4140,7 @@
     (property "Sheetfile" "dilemma.kicad_sch")
     (property "Sheetname" "")
     (path "/8990af71-d145-4ceb-afc3-ba328829719a")
-    (attr exclude_from_pos_files)
+    (attr exclude_from_pos_files exclude_from_bom)
     (fp_text reference "J107" (at 5 -2.55) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 9497a9d2-2c0b-4e6d-977e-6e4bec33df35)
@@ -4586,7 +4586,7 @@
     (property "Sheetfile" "dilemma.kicad_sch")
     (property "Sheetname" "")
     (path "/66f0428d-5d42-4a2b-bd34-e3c56deaabd4")
-    (attr exclude_from_pos_files)
+    (attr exclude_from_pos_files exclude_from_bom)
     (fp_text reference "JP106" (at 0 -1.8 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a44c1e6e-346c-4b3a-b0bf-26d14096a01e)
@@ -4957,7 +4957,7 @@
     (property "Sheetfile" "dilemma.kicad_sch")
     (property "Sheetname" "")
     (path "/e443601b-4cd7-4597-8edb-fe734fe053c8")
-    (attr through_hole exclude_from_pos_files)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "SW108" (at 0 -8.255) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 5d3a7288-d1a0-4134-9d45-c20aaa0f26d9)
@@ -5089,7 +5089,7 @@
     (property "Sheetfile" "dilemma.kicad_sch")
     (property "Sheetname" "")
     (path "/e835f670-a4e4-411b-93b0-aa3907eaf197")
-    (attr through_hole exclude_from_pos_files)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "SW103" (at 0 -8.255) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ee1598c0-56e3-4a92-98cd-f384ffa363fd)
@@ -5426,7 +5426,7 @@
     (property "Sheetfile" "dilemma.kicad_sch")
     (property "Sheetname" "")
     (path "/7d1243ca-b23d-40f1-a05b-8212e796f3b7")
-    (attr through_hole exclude_from_pos_files)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "SW118" (at 0 -8.255 -15) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 15c4fe69-3bf3-4646-8730-da8399eac082)
@@ -5508,7 +5508,7 @@
     (property "Sheetfile" "dilemma.kicad_sch")
     (property "Sheetname" "")
     (path "/bd7d1550-12f2-4e61-8301-dc127a990905")
-    (attr through_hole exclude_from_pos_files)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "H109" (at 0 0.5) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 700c0d5c-2a52-4271-b19c-dfe2680f8e91)
@@ -5527,7 +5527,7 @@
     (property "Sheetfile" "dilemma.kicad_sch")
     (property "Sheetname" "")
     (path "/6e8fbc4a-2a66-4de2-9627-0a21b2e2f627")
-    (attr through_hole exclude_from_pos_files)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "H103" (at 0 0.5) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 91545c6c-5df7-4cda-89d8-7b8ee7bd1b04)
@@ -5548,7 +5548,7 @@
     (property "Sheetfile" "dilemma.kicad_sch")
     (property "Sheetname" "")
     (path "/0ae20a84-6157-4c53-abb1-49e9a43fddea")
-    (attr through_hole exclude_from_pos_files)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "SW105" (at 0 -8.255) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b35d7865-4717-4660-8282-e4868a6697bf)
@@ -5845,7 +5845,7 @@
     (property "Sheetfile" "dilemma.kicad_sch")
     (property "Sheetname" "")
     (path "/dd718582-fe3d-466c-b539-4fd2ee4cec5b")
-    (attr exclude_from_pos_files)
+    (attr exclude_from_pos_files exclude_from_bom)
     (fp_text reference "JP101" (at 0 -1.8 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp d6c8824a-1f5a-440f-898b-9a097538a296)
@@ -5950,7 +5950,7 @@
     (property "Sheetfile" "dilemma.kicad_sch")
     (property "Sheetname" "")
     (path "/8d53e9c9-18a3-4109-aa53-d44adf9141cf")
-    (attr through_hole exclude_from_pos_files)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "SW107" (at 0 -8.255) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 14180fa6-4125-43e7-96dc-ddd1c2ad5f5f)
@@ -6120,7 +6120,7 @@
     (property "Sheetfile" "dilemma.kicad_sch")
     (property "Sheetname" "")
     (path "/e7b9820c-ebd4-46c0-8732-cafc559c4fbc")
-    (attr exclude_from_pos_files)
+    (attr exclude_from_pos_files exclude_from_bom)
     (fp_text reference "JP110" (at 0 -1.8 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 7b512d35-af7a-4548-86f8-246904051dd4)
@@ -6393,7 +6393,7 @@
     (property "Sheetfile" "dilemma.kicad_sch")
     (property "Sheetname" "")
     (path "/1ebf55b2-09a7-4dc8-8b62-2c2166fb1446")
-    (attr exclude_from_pos_files)
+    (attr exclude_from_pos_files exclude_from_bom)
     (fp_text reference "H107" (at 0 -3.7) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 4e21eba9-ee83-4f95-8707-93bc22a8be1f)
@@ -6479,7 +6479,7 @@
     (property "Sheetfile" "dilemma.kicad_sch")
     (property "Sheetname" "")
     (path "/4caa68da-1d74-422f-8bbe-3c28c9ea4b69")
-    (attr exclude_from_pos_files)
+    (attr exclude_from_pos_files exclude_from_bom)
     (fp_text reference "H106" (at 0 -3.7) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp cf7310d3-652d-43fa-8734-4f8266683d73)
@@ -6613,7 +6613,7 @@
     (property "Sheetfile" "dilemma.kicad_sch")
     (property "Sheetname" "")
     (path "/b3d2b3b2-eee3-4354-96ae-35ebc3a7e3fd")
-    (attr exclude_from_pos_files)
+    (attr exclude_from_pos_files exclude_from_bom)
     (fp_text reference "H104" (at 0 -3.7) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 03576746-63ea-4e02-8df8-9477c5b01c78)
@@ -6904,7 +6904,7 @@
     (property "Sheetfile" "dilemma.kicad_sch")
     (property "Sheetname" "")
     (path "/3230db71-e343-4ca7-bfe8-9565703f0c4c")
-    (attr through_hole exclude_from_pos_files)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "SW115" (at 0 -8.255) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b49862e4-1afe-4c30-9db5-a5c99aedbedc)
@@ -6988,7 +6988,7 @@
     (property "Sheetfile" "dilemma.kicad_sch")
     (property "Sheetname" "")
     (path "/c67947f2-a9c6-4aa1-9f2e-711ebaa2fd48")
-    (attr exclude_from_pos_files)
+    (attr exclude_from_pos_files exclude_from_bom)
     (fp_text reference "JP111" (at 0 1.8 90) (layer "B.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 4d84e92b-cae7-41db-9cff-cbd7c48bdf2e)
@@ -9086,7 +9086,7 @@
     (property "Sheetfile" "dilemma.kicad_sch")
     (property "Sheetname" "")
     (path "/db83c478-aecd-42c6-b5c8-ab4611c24929")
-    (attr exclude_from_pos_files)
+    (attr exclude_from_pos_files exclude_from_bom)
     (fp_text reference "J109" (at 0 2.54) (layer "B.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 02910490-7310-49f9-a0ad-041711e45745)
@@ -9601,7 +9601,7 @@
     (property "Sheetfile" "dilemma.kicad_sch")
     (property "Sheetname" "")
     (path "/835102f4-9b14-413b-a145-1f010f51931f")
-    (attr exclude_from_pos_files)
+    (attr exclude_from_pos_files exclude_from_bom)
     (fp_text reference "JP105" (at 0 1.8 90) (layer "B.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp e562fdee-6948-409f-bfff-0606eca7dd3f)
@@ -9795,7 +9795,7 @@
     (property "Sheetfile" "dilemma.kicad_sch")
     (property "Sheetname" "")
     (path "/ae2697a6-5b6c-4144-a80c-f59c20cf01e1")
-    (attr smd exclude_from_pos_files)
+    (attr smd exclude_from_pos_files exclude_from_bom)
     (fp_text reference "SW111" (at 0 4.05 90) (layer "B.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 9dd4dac1-404e-44d1-8a21-1a22afcdec32)
@@ -10009,7 +10009,7 @@
     (property "Sheetfile" "dilemma.kicad_sch")
     (property "Sheetname" "")
     (path "/1b045f10-2695-4131-ad5a-92fba9bb2b89")
-    (attr exclude_from_pos_files)
+    (attr exclude_from_pos_files exclude_from_bom)
     (fp_text reference "JP109" (at 0 1.8 90) (layer "B.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 05c9f3fb-fc85-477c-8aad-6f4ba13efc7b)
@@ -10187,7 +10187,7 @@
     (property "Sheetfile" "dilemma.kicad_sch")
     (property "Sheetname" "")
     (path "/9b5d8fad-a9d5-4261-94ae-888d349a7fb4")
-    (attr exclude_from_pos_files)
+    (attr exclude_from_pos_files exclude_from_bom)
     (fp_text reference "JP102" (at 0 1.8 90) (layer "B.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 5f3668bc-1bb0-4e3d-8801-8ca51c4cdb5b)
@@ -10404,7 +10404,7 @@
     (property "Sheetfile" "dilemma.kicad_sch")
     (property "Sheetname" "")
     (path "/e9a7f20e-5d66-4602-9dea-2e7c86ca5af1")
-    (attr through_hole exclude_from_pos_files)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "J103" (at 2.54 13.97 270) (layer "B.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp b2d11b31-1b82-4d0c-a24f-3ecd947114ec)
@@ -10456,7 +10456,7 @@
     (property "Sheetfile" "dilemma.kicad_sch")
     (property "Sheetname" "")
     (path "/cd676e39-8b0b-4a97-a5f7-f1a894ba4f9c")
-    (attr exclude_from_pos_files)
+    (attr exclude_from_pos_files exclude_from_bom)
     (fp_text reference "JP103" (at 0 1.8 90) (layer "B.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 11d52147-5cab-4d09-9f36-5baedbafa06c)
@@ -10513,7 +10513,7 @@
     (property "Sheetfile" "dilemma.kicad_sch")
     (property "Sheetname" "")
     (path "/0520d68c-bdec-4d10-8756-c63de315da38")
-    (attr exclude_from_pos_files)
+    (attr exclude_from_pos_files exclude_from_bom)
     (fp_text reference "JP107" (at 0 1.8 90) (layer "B.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp a16ddff8-ffc9-41cd-879e-623ce00db76a)
