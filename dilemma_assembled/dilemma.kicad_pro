@@ -123,7 +123,8 @@
         0.16,
         0.2,
         0.25,
-        0.4
+        0.4,
+        2.0
       ],
       "via_dimensions": [
         {
@@ -358,7 +359,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "0xB2.kicad_pro",
+    "filename": "dilemma.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -420,7 +421,7 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
-    "annotate_start_num": 100,
+    "annotate_start_num": 3000,
     "drawing": {
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
