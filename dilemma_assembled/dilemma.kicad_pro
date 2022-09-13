@@ -393,7 +393,6 @@
         "name": "Power",
         "nets": [
           "+1V1",
-          "Gnd_l",
           "VBUS"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
