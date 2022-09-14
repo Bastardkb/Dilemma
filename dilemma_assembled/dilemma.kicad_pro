@@ -70,7 +70,7 @@
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
         "footprint_type_mismatch": "error",
-        "hole_clearance": "error",
+        "hole_clearance": "warning",
         "hole_near_hole": "warning",
         "invalid_outline": "error",
         "item_on_disabled_layer": "error",
@@ -420,7 +420,7 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
-    "annotate_start_num": 3000,
+    "annotate_start_num": 0,
     "drawing": {
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
