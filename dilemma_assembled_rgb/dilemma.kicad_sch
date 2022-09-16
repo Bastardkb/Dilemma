@@ -7113,7 +7113,7 @@
     (property "Value" "M4" (id 1) (at 182.88 188.722 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "local-libraries:MountingHole_3mm_Pad_Via" (id 2) (at 184.15 176.53 0)
+    (property "Footprint" "local-libraries:MountingHole_3mm_Pad_hole" (id 2) (at 184.15 176.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 184.15 176.53 0)
@@ -8913,7 +8913,7 @@
     (property "Value" "M4" (id 1) (at 189.23 188.722 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "local-libraries:MountingHole_3mm_Pad_Via" (id 2) (at 190.5 176.53 0)
+    (property "Footprint" "local-libraries:MountingHole_3mm_Pad_hole" (id 2) (at 190.5 176.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 190.5 176.53 0)
@@ -9317,7 +9317,7 @@
     (property "Value" "M4" (id 1) (at 208.28 188.722 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "local-libraries:MountingHole_3mm_Pad_Via" (id 2) (at 209.55 176.53 0)
+    (property "Footprint" "local-libraries:MountingHole_3mm_Pad_hole" (id 2) (at 209.55 176.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 209.55 176.53 0)
@@ -11053,16 +11053,16 @@
       (reference "FB1") (unit 1) (value "FerriteBead_Small") (footprint "Inductor_SMD:L_0603_1608Metric")
     )
     (path "/2f4248fc-bac1-4746-8fce-b7d7e338527c"
-      (reference "H101") (unit 1) (value "M4") (footprint "local-libraries:MountingHole_3mm_Pad_Via")
+      (reference "H101") (unit 1) (value "M4") (footprint "local-libraries:MountingHole_3mm_Pad_hole")
     )
     (path "/9cb3ab70-f859-494a-87ac-434fbc66c33e"
-      (reference "H102") (unit 1) (value "M4") (footprint "local-libraries:MountingHole_3mm_Pad_Via")
+      (reference "H102") (unit 1) (value "M4") (footprint "local-libraries:MountingHole_3mm_Pad_hole")
     )
     (path "/6e8fbc4a-2a66-4de2-9627-0a21b2e2f627"
       (reference "H103") (unit 1) (value "t") (footprint "local-libraries:JLC_SMT_Assembly_Hole")
     )
     (path "/b3d2b3b2-eee3-4354-96ae-35ebc3a7e3fd"
-      (reference "H104") (unit 1) (value "M4") (footprint "local-libraries:MountingHole_3mm_Pad_Via")
+      (reference "H104") (unit 1) (value "M4") (footprint "local-libraries:MountingHole_3mm_Pad_hole")
     )
     (path "/f149694e-4336-45f7-8a0b-aed91118ad18"
       (reference "H105") (unit 1) (value "M4") (footprint "local-libraries:MountingHole_3mm_Pad_Via")
