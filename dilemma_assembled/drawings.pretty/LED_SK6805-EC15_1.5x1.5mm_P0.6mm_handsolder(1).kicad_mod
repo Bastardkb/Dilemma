@@ -1,6 +1,6 @@
 (footprint "LED_SK6805-EC15_1.5x1.5mm_P0.6mm_handsolder(1)" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 63175228)
+  (tedit 632725CB)
   (descr "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf")
   (tags "LED RGB NeoPixel")
   (attr smd)
@@ -42,5 +42,10 @@
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
+  )
+  (model "${KIPRJMOD}/3d/SK6805-EC15 v2.step"
+    (offset (xyz 0 0 1))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 90 0 0))
   )
 )
