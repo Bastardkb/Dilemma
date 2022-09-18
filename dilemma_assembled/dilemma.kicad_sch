@@ -7044,7 +7044,7 @@
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 200.66 176.53 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 618e54c5-115b-4114-9fd4-7cbaaec48c7d)
-    (property "Reference" "H?" (id 0) (at 199.39 171.45 0)
+    (property "Reference" "H1" (id 0) (at 199.39 171.45 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "M4" (id 1) (at 199.39 188.722 0)
@@ -9197,7 +9197,7 @@
   (symbol (lib_id "power:GND") (at 200.66 179.07 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid fd9377cd-3df9-4e1a-8734-7f53e647694c)
-    (property "Reference" "#PWR?" (id 0) (at 200.66 185.42 0)
+    (property "Reference" "#PWR0127" (id 0) (at 200.66 185.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 200.504 186.0549 90)
@@ -9419,6 +9419,9 @@
     (path "/e5db9639-93a2-41c0-8d8c-ae0f8861c21f"
       (reference "#PWR0126") (unit 1) (value "GND") (footprint "")
     )
+    (path "/fd9377cd-3df9-4e1a-8734-7f53e647694c"
+      (reference "#PWR0127") (unit 1) (value "GND") (footprint "")
+    )
     (path "/adc37c51-420c-4f8e-8736-19b6549831a9"
       (reference "#PWR0128") (unit 1) (value "GND") (footprint "")
     )
@@ -9427,9 +9430,6 @@
     )
     (path "/c666f25c-c371-4c98-9484-27c6b22ebf0b"
       (reference "#PWR0131") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/fd9377cd-3df9-4e1a-8734-7f53e647694c"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/4a21e78b-0ab0-4b88-8132-9b174e045719"
       (reference "C1") (unit 1) (value "1µ") (footprint "Capacitor_SMD:C_0603_1608Metric")
@@ -9620,6 +9620,9 @@
     (path "/a29d643d-e681-4dfa-aa5e-df0b0d74f58b"
       (reference "FB1") (unit 1) (value "FerriteBead_Small") (footprint "Inductor_SMD:L_0603_1608Metric")
     )
+    (path "/618e54c5-115b-4114-9fd4-7cbaaec48c7d"
+      (reference "H1") (unit 1) (value "M4") (footprint "local-libraries:MountingHole_3mm_Pad_Via")
+    )
     (path "/2f4248fc-bac1-4746-8fce-b7d7e338527c"
       (reference "H101") (unit 1) (value "M4") (footprint "local-libraries:MountingHole_3mm_Pad_Via")
     )
@@ -9652,9 +9655,6 @@
     )
     (path "/fe1fc527-60b6-4641-947d-42c4e081bc8b"
       (reference "H111") (unit 1) (value "t") (footprint "local-libraries:Tenting_Puck")
-    )
-    (path "/618e54c5-115b-4114-9fd4-7cbaaec48c7d"
-      (reference "H?") (unit 1) (value "M4") (footprint "local-libraries:MountingHole_3mm_Pad_Via")
     )
     (path "/6125bb34-31fe-49ed-b2ab-61dab24d450a"
       (reference "J1") (unit 1) (value "USB_C_Receptacle_USB2.0") (footprint "0xLib_USB_Type-C:USB_C_Receptacle_HRO_TYPE-C-31-M-13B")
