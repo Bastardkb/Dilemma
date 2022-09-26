@@ -7154,7 +7154,7 @@
   (symbol (lib_id "power:+3.3V") (at 306.07 121.92 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 312bb836-549f-41e7-9e03-466341a7fc0a)
-    (property "Reference" "#PWR?" (id 0) (at 309.88 121.92 0)
+    (property "Reference" "#PWR034" (id 0) (at 309.88 121.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (id 1) (at 302.26 121.92 0))
@@ -7515,7 +7515,7 @@
   (symbol (lib_id "power:GND") (at 306.07 119.38 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 461ea6a6-1c8c-4a40-93fd-fe807bf8de70)
-    (property "Reference" "#PWR?" (id 0) (at 299.72 119.38 0)
+    (property "Reference" "#PWR033" (id 0) (at 299.72 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 302.26 119.38 0))
@@ -9421,7 +9421,7 @@
   (symbol (lib_id "Connector:Conn_01x03_Female") (at 311.15 121.92 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid b73c8aa6-04a5-47a3-a2ee-6cc8eb977a8a)
-    (property "Reference" "J?" (id 0) (at 312.42 120.6499 0)
+    (property "Reference" "J2" (id 0) (at 312.42 120.6499 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x03_Female" (id 1) (at 302.895 127.635 0)
@@ -10718,6 +10718,12 @@
     (path "/c4f3e185-c422-4eae-b971-c9c4fde6877d"
       (reference "#PWR032") (unit 1) (value "GND") (footprint "")
     )
+    (path "/461ea6a6-1c8c-4a40-93fd-fe807bf8de70"
+      (reference "#PWR033") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/312bb836-549f-41e7-9e03-466341a7fc0a"
+      (reference "#PWR034") (unit 1) (value "+3.3V") (footprint "")
+    )
     (path "/da1644f7-6b59-4f28-b4bd-963f2f055bce"
       (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
     )
@@ -10798,12 +10804,6 @@
     )
     (path "/c666f25c-c371-4c98-9484-27c6b22ebf0b"
       (reference "#PWR0131") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/312bb836-549f-41e7-9e03-466341a7fc0a"
-      (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
-    )
-    (path "/461ea6a6-1c8c-4a40-93fd-fe807bf8de70"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/4a21e78b-0ab0-4b88-8132-9b174e045719"
       (reference "C1") (unit 1) (value "1µ") (footprint "Capacitor_SMD:C_0603_1608Metric")
@@ -11111,6 +11111,9 @@
     (path "/6125bb34-31fe-49ed-b2ab-61dab24d450a"
       (reference "J1") (unit 1) (value "USB_C_Receptacle_USB2.0") (footprint "0xLib_USB_Type-C:USB_C_Receptacle_HRO_TYPE-C-31-M-13B")
     )
+    (path "/b73c8aa6-04a5-47a3-a2ee-6cc8eb977a8a"
+      (reference "J2") (unit 1) (value "Conn_01x03_Female") (footprint "local-libraries:PinHeader_1x03_P2.54mm_Vertical_smd")
+    )
     (path "/06b6e523-10ae-4799-8871-3c7a3a700ad9"
       (reference "J5") (unit 1) (value "Conn_01x02") (footprint "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical")
     )
@@ -11122,9 +11125,6 @@
     )
     (path "/eeb6b826-bc65-4571-ab3b-1b47a831da34"
       (reference "J113") (unit 1) (value "Cirque") (footprint "local-libraries:FPC-SMD_FPC05012-09200-.5mm")
-    )
-    (path "/b73c8aa6-04a5-47a3-a2ee-6cc8eb977a8a"
-      (reference "J?") (unit 1) (value "Conn_01x03_Female") (footprint "local-libraries:PinHeader_1x03_P2.54mm_Vertical_smd")
     )
     (path "/66096f4f-c798-4425-8537-e7adeb21bec3"
       (reference "O101") (unit 1) (value "OLED") (footprint "local-libraries:PinHeader_1x04_P2.54mm_Vertical")
