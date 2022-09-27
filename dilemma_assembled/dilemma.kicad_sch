@@ -2826,7 +2826,6 @@
     )
   )
 
-
   (junction (at 441.96 49.53) (diameter 0) (color 0 0 0 0)
     (uuid 02ab9e83-b6ac-4ce5-9d19-df0ae2667345)
   )
@@ -5045,6 +5044,10 @@
   (text "MCU" (at 86.36 20.32 0)
     (effects (font (size 1.778 1.778) (thickness 0.3556) bold) (justify left bottom))
     (uuid cf2192b1-6812-48b8-a4e3-5cbf15ab95c0)
+  )
+  (text "reverse for left half" (at 288.925 191.77 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid e987b886-cfff-40a7-b52a-c5ebea6eb36e)
   )
   (text "Flash memory" (at 209.55 104.14 0)
     (effects (font (size 1.778 1.778) (thickness 0.3556) bold) (justify left bottom))
@@ -7837,7 +7840,7 @@
     (property "Reference" "J2" (id 0) (at 306.705 119.3799 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "Conn_01x03_Female" (id 1) (at 297.18 126.365 0)
+    (property "Value" "NA_Conn_01x03_Female" (id 1) (at 297.18 126.365 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "local-libraries:PinHeader_1x03_P2.54mm_Vertical_smd" (id 2) (at 305.435 120.65 0)
@@ -8916,7 +8919,7 @@
       (reference "J1") (unit 1) (value "USB_C_Receptacle_USB2.0") (footprint "0xLib_USB_Type-C:USB_C_Receptacle_HRO_TYPE-C-31-M-13B")
     )
     (path "/c5d656d9-c5c5-43f3-9bd2-fbf74bcf52f9"
-      (reference "J2") (unit 1) (value "Conn_01x03_Female") (footprint "local-libraries:PinHeader_1x03_P2.54mm_Vertical_smd")
+      (reference "J2") (unit 1) (value "NA_Conn_01x03_Female") (footprint "local-libraries:PinHeader_1x03_P2.54mm_Vertical_smd")
     )
     (path "/06b6e523-10ae-4799-8871-3c7a3a700ad9"
       (reference "J5") (unit 1) (value "Conn_01x02") (footprint "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical")
