@@ -2898,6 +2898,7 @@
     )
   )
 
+
   (junction (at 441.96 49.53) (diameter 0) (color 0 0 0 0)
     (uuid 02ab9e83-b6ac-4ce5-9d19-df0ae2667345)
   )
@@ -5747,7 +5748,7 @@
     (property "Reference" "J5" (id 0) (at 67.945 177.165 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "Conn_01x02" (id 1) (at 72.39 172.0851 0)
+    (property "Value" "NA_Conn_01x02" (id 1) (at 72.39 172.0851 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" (id 2) (at 69.215 174.625 0)
@@ -9134,7 +9135,7 @@
       (reference "J3") (unit 1) (value "NA_GC9A01") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical")
     )
     (path "/06b6e523-10ae-4799-8871-3c7a3a700ad9"
-      (reference "J5") (unit 1) (value "Conn_01x02") (footprint "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical")
+      (reference "J5") (unit 1) (value "NA_Conn_01x02") (footprint "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical")
     )
     (path "/348a0c3a-4854-4149-8a7a-ae4295b639cb"
       (reference "J102") (unit 1) (value "NA_serial") (footprint "local-libraries:Jack_3.5mm_PJ320E_Horizontal")
