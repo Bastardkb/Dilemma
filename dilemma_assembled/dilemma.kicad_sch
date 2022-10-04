@@ -2898,7 +2898,6 @@
     )
   )
 
-
   (junction (at 441.96 49.53) (diameter 0) (color 0 0 0 0)
     (uuid 02ab9e83-b6ac-4ce5-9d19-df0ae2667345)
   )
@@ -6969,7 +6968,7 @@
     (property "Value" "NA_GC9A01" (id 1) (at 283.337 53.848 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical" (id 2) (at 282.575 49.53 0)
+    (property "Footprint" "local-libraries:PinHeader_1x07_P2.54mm_Vertical" (id 2) (at 282.575 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 282.575 49.53 0)
@@ -9132,7 +9131,7 @@
       (reference "J2") (unit 1) (value "NA_Conn_01x03_Female") (footprint "local-libraries:PinHeader_1x03_P2.54mm_Vertical_smd")
     )
     (path "/6e2411cd-fd67-4be2-b1a3-b3e54de4894a"
-      (reference "J3") (unit 1) (value "NA_GC9A01") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical")
+      (reference "J3") (unit 1) (value "NA_GC9A01") (footprint "local-libraries:PinHeader_1x07_P2.54mm_Vertical")
     )
     (path "/06b6e523-10ae-4799-8871-3c7a3a700ad9"
       (reference "J5") (unit 1) (value "NA_Conn_01x02") (footprint "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical")

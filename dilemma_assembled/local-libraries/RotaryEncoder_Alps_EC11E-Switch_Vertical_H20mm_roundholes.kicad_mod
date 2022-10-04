@@ -1,10 +1,10 @@
 (footprint "RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm_roundholes" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 6311D5F9)
+  (tedit 633C3318)
   (descr "Alps rotary encoder, EC12E... with switch, vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html")
   (tags "rotary encoder")
   (attr through_hole)
-  (fp_text reference "REF**" (at 2.8 -4.7) (layer "F.SilkS")
+  (fp_text reference "REF**" (at 2.8 -4.7) (layer "F.SilkS") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp d8b4ea29-2263-46ad-8021-f771c5544363)
   )
