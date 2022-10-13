@@ -2364,6 +2364,9 @@
   (gr_line (start 46.6 101.26) (end 62.02 101.26) (layer "B.Fab") (width 0.1) (tstamp cd1c356b-b89b-42b4-b9a6-74b7dd186689))
   (gr_circle (center 89.51 86.41) (end 94.81 86.41) (layer "User.1") (width 0.15) (fill none) (tstamp 25e242c6-6bd8-4b4d-acd2-99f7f3a04350))
   (gr_circle (center 69.11 30.67) (end 74.41 30.67) (layer "User.1") (width 0.15) (fill none) (tstamp ebf85c8b-1212-4d36-a69f-ecfe45ed0201))
+  (gr_text "a2.0a_R" (at 128.05 93.34 -90) (layer "B.SilkS") (tstamp 62dd1637-f7de-4681-8105-ff7bf627f0f2)
+    (effects (font (size 1.2 1.2) (thickness 0.12)) (justify mirror))
+  )
 
   (segment (start 130.075 67.415) (end 130.075 66.5975) (width 0.16) (layer "B.Cu") (net 1) (tstamp 39eccc98-c048-4e50-a774-53110b988ac6))
   (segment (start 129.72 67.77) (end 130.075 67.415) (width 0.16) (layer "B.Cu") (net 1) (tstamp 3added0c-58c9-431f-8ad6-12d663e27d2a))
