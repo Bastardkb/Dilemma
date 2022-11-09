@@ -22,7 +22,8 @@ The Dilemma is a vertical stagger low-profile keyboard with mods.
   - [Assembled version](#assembled-version)
   - [Trackpad mod](#trackpad-mod)
   - [3d printed thin case](#3d-printed-thin-case)
-  - [3d printed less-thin case with tenting pucks](#3d-printed-less-thin-case-with-tenting-pucks)
+  - [3d printed less-thin case with tenting pucks](#3d-printed-less-thin-case-with-tenting-pucks)  
+- [Community mods](#community-mods)
 - [Build guide](#build-guide)
 - [Support me on patreon](#support-me-on-patreon) 
 - [Others / in progress](#others--in-progress)
@@ -184,6 +185,13 @@ BOM:
 The case is reversible.
 
 It needs to be printed at 0.2mm layer height supportless specifically for the nut inserts suport-less interfaces. If you are doing a different layer height, use supports.
+
+## Community mods
+
+There are a range of community mods available (hex plates, covers...).
+
+You can find more information in the readme in the `mechanical/community mods` folder.
+
 
 ## Build guide
 
