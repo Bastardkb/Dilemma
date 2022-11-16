@@ -21,8 +21,7 @@ The Dilemma is a vertical stagger low-profile keyboard with mods.
   - [DIY version](#diy-version)
   - [Assembled version](#assembled-version)
   - [Trackpad mod](#trackpad-mod)
-  - [3d printed thin case](#3d-printed-thin-case)
-  - [3d printed less-thin case with tenting pucks](#3d-printed-less-thin-case-with-tenting-pucks)  
+  - [Cases](#cases)
 - [Community mods](#community-mods)
 - [Build guide](#build-guide)
 - [Support me on patreon](#support-me-on-patreon) 
@@ -149,42 +148,11 @@ If building the DIY version, you will also need:
 | Cables                  |        |               |
 
 
-### 3d printed thin case
+### Cases
 
-Designed for the minimum footprint possible, while still protecting the PCB.
-
-| Part name              | Amount          | Link / source           |
-| ---------------------- | --------------- | ----------------------- |
-| M3 screw, torx, 6mm    | 6               | Conrad                  |
-| M3 nut                 | 3               | Conrad                  |
-| Anti slip pads, 10x2mm | 12              | Aliexpress              |
-| 3d case                | 1 right, 1 left | See `mechanical` folder |
-
-The case is reversible.
-
-It needs to be printed at 0.2mm layer height supportless specifically for the nut inserts suport-less interfaces. If you are doing a different layer height, use supports. 
-
-### 3d printed less-thin case with tenting pucks
-
-Accomodates the Splitkb tenting puck, to be used with a Manfrotto tripod.
-
+There are a range of cases available. See details in the `mechanical/cases` folder.
 
 ![](pics/1c.jpg)
-
-BOM:
-
-| Part name              | Amount          | Link / source           |
-| ---------------------- | --------------- | ----------------------- |
-| M3 screw, torx, 6mm    | 6               | Conrad                  |
-| M3 nut                 | 3               | Conrad                  |
-| Anti slip pads, 10x2mm | 12              | Aliexpress              |
-| Tenting puck assembly  | 1               | Splitkb                 |
-| Manfrotto tripod       | 2               | Manfrotto               |
-| 3d case                | 1 right, 1 left | See `mechanical` folder |
-
-The case is reversible.
-
-It needs to be printed at 0.2mm layer height supportless specifically for the nut inserts suport-less interfaces. If you are doing a different layer height, use supports.
 
 ## Community mods
 
