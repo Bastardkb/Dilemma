@@ -160,7 +160,7 @@ There are a range of community mods available (hex plates, covers...).
 
 You can find more information in the readme in the `mechanical/community mods` folder.
 
-![](pics/1h.jpg)
+![](pics/1i.jpg)
 
 ## Build guide
 
