@@ -1,39 +1,5 @@
 # Community Mods
 
-## Tenting puck Hex cases
-
-Credit: Frapiscide.
-
-To be used with the Manfrotto tripod.
-
-Files are in the `tenting_puck` folder.
-
-
-![](../../pics/1h.jpg)
-
-### BOM
-
-| Part name               | Amount | Notes               |
-| ----------------------- | ------ | --------------------------- |
-| M3x6 BHCS           | 3     | M3x8 BHCS work too |
-| M3 Hex Nut | 3      |          |
-| 3d printed case | 2      | Right / Left*        |
-
-* You will need to print 2 cases - you can reverse it in your slicing software.
-
-There are 2 versions:
-- integrated holes to screw the manfrotto tripod directly
-- hole for the splitkb tenting puck 
-
-### Notes
-
-- The case was designed around the DIY v0.1c PCB. Other versions may work but have not been verified
-- The STL's are pre-oriented for their preferred printing position for FDM
-- None of the parts need supports
-- The case has .25mm of clearance all around the perimeter of the PCB
-- The parts can be mirrored for whichever side you want the part for. The case and blank cover are originally modelled for the left side and the cirque holder for the right side. (Rev 1)
-
-
 ## Cirque holder for flat overlay
 
 Credit: Frapiscide.
