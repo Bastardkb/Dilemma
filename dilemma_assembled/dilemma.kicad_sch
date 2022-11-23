@@ -3212,7 +3212,7 @@
   (no_connect (at 50.8 67.31) (uuid 455fd08e-7008-46a0-9e5a-f14373728ee7))
   (no_connect (at 342.265 45.72) (uuid 5a2db3c3-ab59-420c-aa01-c9b1226baeef))
   (no_connect (at 182.88 93.98) (uuid 667ed57f-1eb1-4a7a-b089-1084f6d4fdc6))
-  (no_connect (at 182.88 96.52) (uuid 667ed57f-1eb1-4a7a-b089-1084f6d4fdc6))
+  (no_connect (at 182.88 96.52) (uuid 667ed57f-1eb1-4a7a-b089-1084f6d4fdc7))
   (no_connect (at 409.575 74.93) (uuid 83815bd5-67b6-4b95-840e-a349881c1d3a))
 
   (polyline (pts (xy 348.615 167.005) (xy 348.615 191.77))

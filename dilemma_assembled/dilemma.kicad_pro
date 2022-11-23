@@ -361,7 +361,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "dilemma.kicad_pro",
+    "filename": "dilemma_R.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -422,7 +422,7 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
-    "annotate_start_num": 0,
+    "annotate_start_num": 5000,
     "drawing": {
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,

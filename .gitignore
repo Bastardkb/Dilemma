@@ -31,3 +31,7 @@ cad/*
 
 dilemma/fabrication-output
 dilemma/jlcpcb
+jlcpcb
+jlcpcb/*
+fabrication-output
+fabrication-output/*
