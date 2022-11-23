@@ -3167,6 +3167,7 @@
     )
   )
 
+
   (junction (at 419.735 48.26) (diameter 0) (color 0 0 0 0)
     (uuid 02ab9e83-b6ac-4ce5-9d19-df0ae2667345)
   )
@@ -7562,10 +7563,6 @@
     (effects (font (size 1.778 1.778) (thickness 0.3556) bold) (justify left bottom))
     (uuid 976fb8ae-d91c-4c2e-8249-5d057396a975)
   )
-  (text "reverse for left half" (at 286.385 487.045 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 97f21bf3-22ee-4fe4-b7c1-6f313fbd3391)
-  )
   (text "Tenting puck" (at 365.76 166.37 180)
     (effects (font (size 1.778 1.778) (thickness 0.3556) bold) (justify right bottom))
     (uuid a0b33f7a-cea1-4063-8d59-0eedf64e4a7b)
@@ -10048,22 +10045,6 @@
     (pin "2" (uuid b504d419-6d79-4afd-9ad7-37a269c7f6b2))
   )
 
-  (symbol (lib_id "power_L:+3V3_L") (at 289.56 475.615 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
-    (uuid 395f8c20-37fa-40d8-aee1-c7ff83eb9b73)
-    (property "Reference" "#PWR05047" (id 0) (at 289.56 479.425 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+3V3_L" (id 1) (at 289.56 470.535 0))
-    (property "Footprint" "" (id 2) (at 289.56 475.615 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 289.56 475.615 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid f285aa52-e974-4a68-ac10-7b05914fc456))
-  )
-
   (symbol (lib_id "Switch:SW_Push") (at 76.2 218.44 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 39bb9734-8b7d-4247-bc38-bd4a5d9ed06f)
@@ -11527,6 +11508,24 @@
     )
     (pin "1" (uuid d77abb4e-9728-498d-9f77-c50ed71d858d))
     (pin "2" (uuid f31cbe1f-a0c2-4b31-9201-0bf1f9088e78))
+  )
+
+  (symbol (lib_id "power_L:GND_L") (at 289.56 475.615 180) (unit 1)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (uuid 7dddb86e-fee6-4480-8dee-61b21e51504b)
+    (property "Reference" "#PWR?" (id 0) (at 289.56 469.265 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND_L" (id 1) (at 291.465 474.3449 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "" (id 2) (at 289.56 475.615 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 289.56 475.615 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid dda31f92-3831-4842-8102-1aef53b2db18))
   )
 
   (symbol (lib_id "power:GND") (at 226.695 179.07 0) (unit 1)
@@ -15285,9 +15284,6 @@
     (path "/c081bcf0-3d52-428a-9f65-fc0388f04ed2"
       (reference "#PWR05046") (unit 1) (value "+3V3_L") (footprint "")
     )
-    (path "/395f8c20-37fa-40d8-aee1-c7ff83eb9b73"
-      (reference "#PWR05047") (unit 1) (value "+3V3_L") (footprint "")
-    )
     (path "/13bc5665-b353-441d-9f36-59e1512015c5"
       (reference "#PWR05048") (unit 1) (value "GND_L") (footprint "")
     )
@@ -15323,6 +15319,9 @@
     )
     (path "/a72e8161-c7d3-444b-b8bf-8895669d39f4"
       (reference "#PWR05059") (unit 1) (value "GND_L") (footprint "")
+    )
+    (path "/7dddb86e-fee6-4480-8dee-61b21e51504b"
+      (reference "#PWR?") (unit 1) (value "GND_L") (footprint "")
     )
     (path "/4a21e78b-0ab0-4b88-8132-9b174e045719"
       (reference "C1") (unit 1) (value "1µ") (footprint "Capacitor_SMD:C_0603_1608Metric")
