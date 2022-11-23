@@ -24,6 +24,7 @@ The Dilemma is a vertical stagger low-profile keyboard with mods.
   - [Cases](#cases)
 - [Community mods](#community-mods)
 - [Build guide](#build-guide)
+- [Forks](#forks)
 - [Support me on patreon](#support-me-on-patreon) 
 - [Others / in progress](#others--in-progress)
 
@@ -165,6 +166,12 @@ You can find more information in the readme in the `mechanical/community mods` f
 ## Build guide
 
 https://docs.bastardkb.com/hc/en-us/sections/6848232395410-Dilemma
+
+
+## Forks
+
+- [3x6 version](https://github.com/bstiq/Dilemma_3x6/)
+- [3x5 + 3 version](https://github.com/bstiq/Dilemma_3x6/)
 
 ## Support me on Patreon
 
