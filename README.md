@@ -171,7 +171,7 @@ https://docs.bastardkb.com/hc/en-us/sections/6848232395410-Dilemma
 ## Forks
 
 - [3x6 version](https://github.com/bstiq/Dilemma_3x6/)
-- [3x5 + 3 version](https://github.com/bstiq/Dilemma_3x6/)
+- [3x5 + 3 version](https://github.com/dixls/Dilemma-3mod)
 
 ## Support me on Patreon
 
