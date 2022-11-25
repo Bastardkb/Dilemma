@@ -61,11 +61,11 @@
       35,
       36
     ],
-    "visible_layers": "400b0ff_80000007",
+    "visible_layers": "fffffff_ffffffff",
     "zone_display_mode": 1
   },
   "meta": {
-    "filename": "dilemma.kicad_prl",
+    "filename": "dilemma_L.kicad_prl",
     "version": 3
   },
   "project": {

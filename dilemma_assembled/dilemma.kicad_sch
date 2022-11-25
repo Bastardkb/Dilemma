@@ -3167,7 +3167,6 @@
     )
   )
 
-
   (junction (at 419.735 48.26) (diameter 0) (color 0 0 0 0)
     (uuid 02ab9e83-b6ac-4ce5-9d19-df0ae2667345)
   )
@@ -6023,10 +6022,6 @@
   (wire (pts (xy 33.02 215.9) (xy 44.45 215.9))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 9e08eaf7-a538-49e1-acb3-91e047bc3fd7)
-  )
-  (wire (pts (xy 288.925 517.525) (xy 288.925 514.985))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 9e099eea-917b-4397-8877-a4b231b69c7d)
   )
   (polyline (pts (xy 77.47 194.31) (xy 172.72 194.31))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -9550,9 +9545,27 @@
     (pin "2" (uuid 7ce8f796-a09a-40fb-83b9-0f552ae4308b))
   )
 
+  (symbol (lib_id "power_L:GND_L") (at 288.925 517.525 0) (unit 1)
+    (in_bom yes) (on_board yes)
+    (uuid 209147cd-5107-4e05-a842-782aab18be28)
+    (property "Reference" "#PWR?" (id 0) (at 288.925 523.875 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND_L" (id 1) (at 288.9249 516.89 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "" (id 2) (at 288.925 517.525 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 288.925 517.525 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 4f801409-dba8-4508-9729-9cb674045689))
+  )
+
   (symbol (lib_id "sk6805-ec15:SK6805-EC15") (at 526.415 351.155 0) (unit 1)
     (in_bom yes) (on_board yes)
-    (uuid 20cb7a59-5c46-47a2-8fc8-a951f476d54d)
+    (uuid 20cb7a59-5c46-47a2-8fc8-a951f476d54e)
     (property "Reference" "D5029" (id 0) (at 540.385 346.075 0))
     (property "Value" "SK6805-EC15" (id 1) (at 527.685 339.725 0))
     (property "Footprint" "0xB2_drawings:LED_SK6805-EC15_1.5x1.5mm_P0.6mm_handsolder(1)" (id 2) (at 527.685 358.775 0)
@@ -9576,7 +9589,7 @@
     (pin "1" (uuid 51affb03-86b5-4657-a377-656a0b0fa718))
     (pin "2" (uuid 34e8f9ed-8952-497d-a880-7755f58f2aca))
     (pin "3" (uuid 5340724d-eb84-440d-ab0b-11231bc90346))
-    (pin "4" (uuid b2ad209e-826a-4cf8-800c-b18b96d20b84))
+    (pin "4" (uuid b2ad209e-826a-4cf8-800c-b18b96d20b85))
   )
 
   (symbol (lib_id "power_L:+3V3_L") (at 168.91 332.105 0) (unit 1)
@@ -10021,6 +10034,22 @@
     (pin "2" (uuid f7b72427-2e9e-4c5e-8c5a-380ae512d15f))
     (pin "3" (uuid f2541c63-f916-4eec-8e16-fa49e5de1e82))
     (pin "4" (uuid 1a840357-9053-4b4b-be6c-a0a8639680d7))
+  )
+
+  (symbol (lib_id "power_L:+3V3_L") (at 289.56 475.615 0) (unit 1)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (uuid 387a6227-b331-470e-ab79-9947b9ac881d)
+    (property "Reference" "#PWR?" (id 0) (at 289.56 479.425 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3V3_L" (id 1) (at 289.56 470.535 0))
+    (property "Footprint" "" (id 2) (at 289.56 475.615 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 289.56 475.615 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 07463f42-6bfe-428b-b2cf-99e47c72a355))
   )
 
   (symbol (lib_id "Device:C") (at 121.92 180.34 0) (unit 1)
@@ -11508,24 +11537,6 @@
     )
     (pin "1" (uuid d77abb4e-9728-498d-9f77-c50ed71d858d))
     (pin "2" (uuid f31cbe1f-a0c2-4b31-9201-0bf1f9088e78))
-  )
-
-  (symbol (lib_id "power_L:GND_L") (at 289.56 475.615 180) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
-    (uuid 7dddb86e-fee6-4480-8dee-61b21e51504b)
-    (property "Reference" "#PWR?" (id 0) (at 289.56 469.265 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND_L" (id 1) (at 291.465 474.3449 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "" (id 2) (at 289.56 475.615 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 289.56 475.615 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid dda31f92-3831-4842-8102-1aef53b2db18))
   )
 
   (symbol (lib_id "power:GND") (at 226.695 179.07 0) (unit 1)
@@ -13312,22 +13323,6 @@
     )
     (pin "1" (uuid 8d4b0a4f-7f7c-4f15-a454-4f4644af9ce8))
     (pin "2" (uuid 794b54e2-be1b-425a-9cf4-ee69d223a564))
-  )
-
-  (symbol (lib_id "power_L:+3V3_L") (at 288.925 514.985 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
-    (uuid c081bcf0-3d52-428a-9f65-fc0388f04ed2)
-    (property "Reference" "#PWR05046" (id 0) (at 288.925 518.795 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+3V3_L" (id 1) (at 288.925 509.905 0))
-    (property "Footprint" "" (id 2) (at 288.925 514.985 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 288.925 514.985 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 6077349d-2d98-4fcc-8a53-a4281a78c9e1))
   )
 
   (symbol (lib_id "Device:R") (at 37.465 462.915 180) (unit 1)
@@ -15281,9 +15276,6 @@
     (path "/5210cf7b-1003-4eb3-b3c0-33660c4be3db"
       (reference "#PWR05045") (unit 1) (value "GND_L") (footprint "")
     )
-    (path "/c081bcf0-3d52-428a-9f65-fc0388f04ed2"
-      (reference "#PWR05046") (unit 1) (value "+3V3_L") (footprint "")
-    )
     (path "/13bc5665-b353-441d-9f36-59e1512015c5"
       (reference "#PWR05048") (unit 1) (value "GND_L") (footprint "")
     )
@@ -15320,8 +15312,11 @@
     (path "/a72e8161-c7d3-444b-b8bf-8895669d39f4"
       (reference "#PWR05059") (unit 1) (value "GND_L") (footprint "")
     )
-    (path "/7dddb86e-fee6-4480-8dee-61b21e51504b"
+    (path "/209147cd-5107-4e05-a842-782aab18be28"
       (reference "#PWR?") (unit 1) (value "GND_L") (footprint "")
+    )
+    (path "/387a6227-b331-470e-ab79-9947b9ac881d"
+      (reference "#PWR?") (unit 1) (value "+3V3_L") (footprint "")
     )
     (path "/4a21e78b-0ab0-4b88-8132-9b174e045719"
       (reference "C1") (unit 1) (value "1µ") (footprint "Capacitor_SMD:C_0603_1608Metric")
@@ -15581,7 +15576,7 @@
     (path "/375d226d-7c58-4cd9-8321-87de9ab882b5"
       (reference "D5028") (unit 1) (value "SK6805-EC15") (footprint "0xB2_drawings:LED_SK6805-EC15_1.5x1.5mm_P0.6mm_handsolder(1)")
     )
-    (path "/20cb7a59-5c46-47a2-8fc8-a951f476d54d"
+    (path "/20cb7a59-5c46-47a2-8fc8-a951f476d54e"
       (reference "D5029") (unit 1) (value "SK6805-EC15") (footprint "0xB2_drawings:LED_SK6805-EC15_1.5x1.5mm_P0.6mm_handsolder(1)")
     )
     (path "/4c516544-a53a-48f3-ae29-6e5455f8b1e6"

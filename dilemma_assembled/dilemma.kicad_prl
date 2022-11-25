@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 31,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_nets": [],
@@ -8,7 +8,7 @@
     "net_color_mode": 1,
     "opacity": {
       "pads": 0.5099999904632568,
-      "tracks": 1.0,
+      "tracks": 0.6800000071525574,
       "vias": 0.6499999761581421,
       "zones": 1.0
     },
@@ -36,6 +36,7 @@
       8,
       9,
       10,
+      11,
       12,
       13,
       14,
