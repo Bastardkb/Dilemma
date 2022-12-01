@@ -14,17 +14,17 @@
     },
     "ratsnest_display_mode": 0,
     "selection_filter": {
-      "dimensions": false,
-      "footprints": false,
-      "graphics": false,
-      "keepouts": false,
+      "dimensions": true,
+      "footprints": true,
+      "graphics": true,
+      "keepouts": true,
       "lockedItems": true,
-      "otherItems": false,
+      "otherItems": true,
       "pads": true,
       "text": true,
       "tracks": true,
-      "vias": false,
-      "zones": false
+      "vias": true,
+      "zones": true
     },
     "visible_items": [
       0,
@@ -61,8 +61,8 @@
       35,
       36
     ],
-    "visible_layers": "40010cf_80000007",
-    "zone_display_mode": 1
+    "visible_layers": "40010ff_80000007",
+    "zone_display_mode": 0
   },
   "meta": {
     "filename": "dilemma.kicad_prl",
