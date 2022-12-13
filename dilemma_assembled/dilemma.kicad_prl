@@ -4,7 +4,7 @@
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_nets": [],
-    "high_contrast_mode": 1,
+    "high_contrast_mode": 0,
     "net_color_mode": 1,
     "opacity": {
       "pads": 0.5099999904632568,
@@ -61,7 +61,7 @@
       35,
       36
     ],
-    "visible_layers": "40410ff_80000001",
+    "visible_layers": "40410cf_80000001",
     "zone_display_mode": 1
   },
   "meta": {
