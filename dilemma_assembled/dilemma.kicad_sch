@@ -12000,7 +12000,7 @@
     (in_bom yes) (on_board yes)
     (uuid 584e719d-84f8-4d1d-8c33-91e89c98c372)
     (property "Reference" "R5016" (id 0) (at 382.27 31.75 90))
-    (property "Value" "1k" (id 1) (at 382.27 34.29 90))
+    (property "Value" "330" (id 1) (at 382.27 34.29 90))
     (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (id 2) (at 382.27 36.068 90)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -13450,7 +13450,7 @@
     (in_bom yes) (on_board yes)
     (uuid 8c86a2ff-7652-4582-8eba-01bc6ccde085)
     (property "Reference" "R5015" (id 0) (at 381 327.66 90))
-    (property "Value" "1k" (id 1) (at 381 330.2 90))
+    (property "Value" "330" (id 1) (at 381 330.2 90))
     (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (id 2) (at 381 331.978 90)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -18106,10 +18106,10 @@
       (reference "R5014") (unit 1) (value "4.7k") (footprint "local-libraries:R_0402_1005Metric_nolabel")
     )
     (path "/8c86a2ff-7652-4582-8eba-01bc6ccde085"
-      (reference "R5015") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R5015") (unit 1) (value "330") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/584e719d-84f8-4d1d-8c33-91e89c98c372"
-      (reference "R5016") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R5016") (unit 1) (value "330") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/c30a3276-ac5c-4a68-880e-26478e1b53e4"
       (reference "SW1") (unit 1) (value "SW_Push") (footprint "Button_Switch_SMD:SW_SPST_CK_KXT3")
