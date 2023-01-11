@@ -1,4 +1,0 @@
-(sym_lib_table
-  (lib (name "MCU_RaspberryPi_RP2040")(type "KiCad")(uri "${KICAD6_USER_LIB}/MCU_RaspberryPi_RP2040.kicad_sym")(options "")(descr ""))
-  (lib (name "power_L")(type "KiCad")(uri "${KIPRJMOD}/local-libraries/power_L.kicad_sym")(options "")(descr ""))
-)
