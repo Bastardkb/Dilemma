@@ -167,6 +167,10 @@ You will need
 | [3d printed top plate](mechanical/plates/v2/top.stl) | 2      | 1 left, 1 right                  |
 |[acrylic mid plate](mechanical/plates/v2/mid_acry_full.dxf) | 2      | Order transparent or frost, 3mm         |
 |  [3d printed bottom plate](mechanical/plates/v2/bottom.stl)*   |  2      | 1 left, 1 right  |
+|  M3x4 flat head screw   |  8      |  |
+|  M3x4 chamfered head screw   |  10      |  |
+|  M3x5 female/female spacer   |  8      |  |
+|  M3x5 male/female spacer    |  2      |  |
 
 *the 3d printed bottom plate can be swapped out for a full acrylic bottom plate, or a metal plate for the magnet mod (see following sections).
 
