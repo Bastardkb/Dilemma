@@ -183,7 +183,7 @@ You will also need to chamfer the M3 holes for the screws to be flush.
 
 ### Tents - metal bottom plate
 
-This plate enables the use of tripods through magsafe magents.
+This plate enables the use of tripods through magsafe magnets.
 
 Order the [metal plates](mechanical/plates/v2/bottom_metal.dxf) in 3mm thickness. The metal needs to be *magnetized* !
 
