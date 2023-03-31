@@ -14,19 +14,25 @@ The Dilemma is a vertical stagger low-profile keyboard with mods.
 
 ## Table of contents
 
-- [Print the appropriate parts from the `mechanical` folder.](#print-the-appropriate-parts-from-the-mechanical-folder)
-  - [Cases](#cases)
-    - [Cases](#cases-1)
-    - [Acrylic midplate (v2 only)](#acrylic-midplate-v2-only)
-    - [Acrylic bottom plate](#acrylic-bottom-plate)
-    - [Tents - metal bottom plate](#tents---metal-bottom-plate)
-    - [3d printed thin case (v1 only)](#3d-printed-thin-case-v1-only)
-    - [3d printed less-thin case with tenting pucks (v1 only)](#3d-printed-less-thin-case-with-tenting-pucks-v1-only)
-  - [Community mods](#community-mods)
-  - [Build guide](#build-guide)
-  - [Forks](#forks)
-  - [Support me on Patreon](#support-me-on-patreon)
-  - [Others / in progress](#others--in-progress)
+- [Table of contents](#table-of-contents)
+- [Features](#features)
+- [Versions](#versions)
+- [Wireless abilities](#wireless-abilities)
+- [BOM](#bom)
+  - [DIY version](#diy-version)
+  - [Assembled version](#assembled-version)
+  - [Trackpad mod](#trackpad-mod)
+- [Cases](#cases)
+  - [Acrylic midplate (v2 only)](#acrylic-midplate-v2-only)
+  - [Acrylic bottom plate](#acrylic-bottom-plate)
+  - [Tents - metal bottom plate](#tents---metal-bottom-plate)
+  - [3d printed thin case (v1 only)](#3d-printed-thin-case-v1-only)
+  - [3d printed less-thin case with tenting pucks (v1 only)](#3d-printed-less-thin-case-with-tenting-pucks-v1-only)
+- [Community mods](#community-mods)
+- [Build guide](#build-guide)
+- [Forks](#forks)
+- [Support me on Patreon](#support-me-on-patreon)
+- [Others / in progress](#others--in-progress)
 
 
 ---
