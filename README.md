@@ -10,7 +10,7 @@
 
 The Dilemma is a vertical stagger low-profile keyboard with mods.
 
-![](pics/1h.jpg)
+![](pics/1k.jpg)
 
 ## Table of contents
 
@@ -98,7 +98,7 @@ Order in 1.2mm thickness.
 
 ### Assembled version
 
-![](pics/1i.jpg)
+![](pics/1l.jpg)
 
 
 On top of the parts mentioned above, you will need:
@@ -112,8 +112,6 @@ The release section contains the latest gerbers with BOM and POS files.
 Order in 1.6mm thickness.
 
 ### Trackpad mod
-
-![](pics/1e.jpg)
 
 This is the first mod made for the keyboard - so it can function as a standalone input device.
 
@@ -180,6 +178,9 @@ You will also need to chamfer the M3 holes for the screws to be flush.
 ### Tents - metal bottom plate
 
 This plate enables the use of tripods through magsafe magnets.
+
+
+![](pics/1m.jpg)
 
 Order the [metal plates](mechanical/plates/v2/bottom_metal.dxf) in 3mm thickness. The metal needs to be *magnetized* !
 
