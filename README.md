@@ -10,23 +10,23 @@
 
 The Dilemma is a vertical stagger low-profile keyboard with mods.
 
-![](pics/1g.jpg)
+![](pics/1h.jpg)
 
 ## Table of contents
 
-- [Features](#features)
-- [Versions](#versions)
-- [Wireless abilities](#wireless-abilities)
-- [BOM](#bom)
-  - [DIY version](#diy-version)
-  - [Assembled version](#assembled-version)
-  - [Trackpad mod](#trackpad-mod)
+- [Print the appropriate parts from the `mechanical` folder.](#print-the-appropriate-parts-from-the-mechanical-folder)
   - [Cases](#cases)
-- [Community mods](#community-mods)
-- [Build guide](#build-guide)
-- [Forks](#forks)
-- [Support me on patreon](#support-me-on-patreon) 
-- [Others / in progress](#others--in-progress)
+    - [Cases](#cases-1)
+    - [Acrylic midplate (v2 only)](#acrylic-midplate-v2-only)
+    - [Acrylic bottom plate](#acrylic-bottom-plate)
+    - [Tents - metal bottom plate](#tents---metal-bottom-plate)
+    - [3d printed thin case (v1 only)](#3d-printed-thin-case-v1-only)
+    - [3d printed less-thin case with tenting pucks (v1 only)](#3d-printed-less-thin-case-with-tenting-pucks-v1-only)
+  - [Community mods](#community-mods)
+  - [Build guide](#build-guide)
+  - [Forks](#forks)
+  - [Support me on Patreon](#support-me-on-patreon)
+  - [Others / in progress](#others--in-progress)
 
 
 ---
@@ -35,9 +35,8 @@ The Dilemma is a vertical stagger low-profile keyboard with mods.
 
 - Heavy pinky stagger
 - MX and choc compatible
-- Reversible PCB
-- Elite-pi / Splinky / Nice!Nano compatible
-- Tenting puck footprint
+- Underglow RGB, Per-key RGB
+- 2 Rotary encoders on thumb clusters
 
 ## Versions
 
@@ -99,18 +98,18 @@ Order in 1.2mm thickness.
 
 ### Assembled version
 
-![](pics/1d.png)
+![](pics/1i.jpg)
 
 
 On top of the parts mentioned above, you will need:
 
 | Part name                     | Amount | Link / source       |
 | ----------------------------- | ------ | ------------------- |
-| Dilemma PCB, assembled, 1.2mm | 2      | See Release section |
+| Dilemma PCB, assembled | 2      | See Release section |
 
 The release section contains the latest gerbers with BOM and POS files.
 
-Order in 1.2mm thickness.
+Order in 1.6mm thickness.
 
 ### Trackpad mod
 
@@ -128,11 +127,9 @@ When installing the trackpad mod, you will need:
 | ------------------- | ------ | ----------------------- |
 | M3 screw, torx, 6mm | 4      | Conrad                  |
 | M3x5x5 screw insert | 4      | Aliexpress              |
-| Cirque trackpad*    | 1       |  Mouser |
-| 3d printed parts*    |        | See `mechanical` folder |
+| 3d printed parts    |        | See `mechanical` folder |
+| 40mm cirque trackpad, curved    |        | |
 
-*You can use either the 35mm (TM035035-2024-003) or 40mm (TM040040-2024-303).
-Print the appropriate parts from the `mechanical` folder.
 
 If building the PCBA version, you will also need:
 
@@ -148,8 +145,78 @@ If building the DIY version, you will also need:
 | SOD123 Resistor, 5kOhms | 2      |               |
 | Cables                  |        |               |
 
+## Cases
 
-### Cases
+### Acrylic midplate (v2 only)
+
+This case is only compatible with the assembled_v2 version !
+
+Add an underglow effect and a beautiful view into the PCB with those acrylic midplates.
+
+
+![](pics/1j.jpg)
+
+You will need
+
+| Part name           | Amount | Details      |
+| ------------------- | ------ | ----------------------- |
+| [3d printed top plate](mechanical/plates/v2/top.stl) | 2      | 1 left, 1 right                  |
+|[acrylic mid plate](mechanical/plates/v2/mid_acry_full.dxf) | 2      | Order transparent or frost, 3mm         |
+|  [3d printed bottom plate](mechanical/plates/v2/bottom.stl)*   |  2      | 1 left, 1 right  |
+|  M3x4 flat head screw   |  8      |  |
+|  M3x4 chamfered head screw   |  10      |  |
+|  M3x5 female/female spacer   |  8      |  |
+|  M3x5 male/female spacer    |  2      |  |
+
+*the 3d printed bottom plate can be swapped out for a full acrylic bottom plate, or a metal plate for the magnet mod (see following sections).
+
+### Acrylic bottom plate
+
+If you are using the acrylic midplate, you can install a full bottom plate. Order the [bottom acrylic plates](mechanical/plates/v2/bottom_acry_full.dxf) in 3mm thickness.
+
+You will also need to chamfer the M3 holes for the screws to be flush.
+
+
+### Tents - metal bottom plate
+
+This plate enables the use of tripods through magsafe magnets.
+
+Order the [metal plates](mechanical/plates/v2/bottom_metal.dxf) in 3mm thickness. The metal needs to be *magnetized* !
+
+You will also need to chamfer the M3 holes for the screws to be flush.
+
+You will need:
+
+| Part name               | Amount | Details |
+| ----------------------- | ------ | ------------- |
+| Metal plates | 2      |         3mm|
+| Tripods                  |   2     |    Neewer Z flex           |
+| Magsafe tripod adapter                  |   2     |  Amazon/Aliexpress             |
+
+
+
+### 3d printed thin case (v1 only)
+
+This case is only compatible with the DIY and assembled_v1 versions !
+
+Designed for the minimum footprint possible, while still protecting the PCB.
+
+| Part name              | Amount          | Link / source           |
+| ---------------------- | --------------- | ----------------------- |
+| M3 screw, torx, 6mm    | 6               | Conrad                  |
+| M3 nut                 | 3               | Conrad                  |
+| Anti slip pads, 10x2mm | 12              | Aliexpress              |
+| 3d case                | 1 right, 1 left | See `mechanical` folder |
+
+The case is reversible.
+
+It needs to be printed at 0.2mm layer height supportless specifically for the nut inserts suport-less interfaces. If you are doing a different layer height, use supports. 
+
+### 3d printed less-thin case with tenting pucks (v1 only)
+
+This case is only compatible with the DIY and assembled_v1 versions !
+
+Accomodates the Splitkb tenting puck, to be used with a Manfrotto tripod.
 
 There are a range of cases available. See details in the `mechanical/cases` folder.
 
