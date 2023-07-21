@@ -1,4 +1,4 @@
-(footprint "LED_SK6805-EC15_1.5x1.5mm_P0.6mm_handsolder(1)" (version 20221018) (generator pcbnew)
+(footprint "LED_SK6805-EC15_1.5x1.5mm_P0.6mm_handsolder" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (descr "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf")
   (tags "LED RGB NeoPixel")
