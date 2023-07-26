@@ -3159,6 +3159,7 @@
     )
   )
 
+
   (junction (at 63.5 538.48) (diameter 0) (color 0 0 0 0)
     (uuid 00581d3f-2806-4f98-acba-68c922df0cec)
   )
@@ -10664,6 +10665,31 @@
     )
   )
 
+  (symbol (lib_id "power_L:GND_L") (at 198.12 473.71 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 08884789-59f8-4827-9f70-845c93db000d)
+    (property "Reference" "#PWR05173" (at 198.12 480.06 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND_L" (at 198.12 478.79 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 198.12 473.71 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 198.12 473.71 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 095dd0a4-ece4-4b68-a748-f796a5c83893))
+    (instances
+      (project "dilemma"
+        (path "/7353e96a-343a-4876-b497-b1d205a14d97"
+          (reference "#PWR05173") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:+3.3V") (at 40.005 162.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 08bb14e3-6da7-460c-adff-2a8900dee170)
@@ -14550,31 +14576,6 @@
       (project "dilemma"
         (path "/7353e96a-343a-4876-b497-b1d205a14d97"
           (reference "#PWR05045") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 198.12 473.71 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 52cfe5f6-f4ff-493f-b471-03360f4e3a33)
-    (property "Reference" "#PWR05173" (at 198.12 480.06 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND_L" (at 197.964 480.6949 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "" (at 198.12 473.71 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 198.12 473.71 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 89e332c8-4d6a-44d9-ae4a-bee7c68df891))
-    (instances
-      (project "dilemma"
-        (path "/7353e96a-343a-4876-b497-b1d205a14d97"
-          (reference "#PWR05173") (unit 1)
         )
       )
     )
