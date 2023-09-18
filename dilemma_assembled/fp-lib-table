@@ -1,5 +1,0 @@
-(fp_lib_table
-  (lib (name "0xB2_drawings")(type "KiCad")(uri "${KIPRJMOD}/drawings.pretty")(options "")(descr ""))
-  (lib (name "local-libraries")(type "KiCad")(uri "${KIPRJMOD}/local-libraries")(options "")(descr ""))
-  (lib (name "drawings")(type "KiCad")(uri "${KIPRJMOD}/drawings.pretty")(options "")(descr ""))
-)
