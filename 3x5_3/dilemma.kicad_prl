@@ -5,7 +5,7 @@
     "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [],
-    "high_contrast_mode": 0,
+    "high_contrast_mode": 1,
     "net_color_mode": 1,
     "opacity": {
       "images": 0.6,
@@ -62,7 +62,7 @@
       35,
       36
     ],
-    "visible_layers": "409906f_80000007",
+    "visible_layers": "40990ff_80000007",
     "zone_display_mode": 1
   },
   "meta": {
