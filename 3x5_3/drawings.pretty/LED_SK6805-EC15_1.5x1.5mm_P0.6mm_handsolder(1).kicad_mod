@@ -197,6 +197,19 @@
 		(layer "F.Fab")
 		(uuid "3ab01bbc-04f7-43ea-bf17-768f5001d6fb")
 	)
+	(fp_text user "GND"
+		(at -0.1 -1.9 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "9f6b483c-54aa-4a87-b38d-02ff2f6f0ced")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
 	(fp_text user "${REFERENCE}"
 		(at 0.18034 1.45796 0)
 		(layer "F.Fab")
