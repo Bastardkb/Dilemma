@@ -107,8 +107,8 @@
 		(uuid "9e5f3d64-e26c-4e21-ac20-997263f90605")
 	)
 	(fp_circle
-		(center -1.35 0.9)
-		(end -1.25 0.8)
+		(center -1 0.75)
+		(end -0.9 0.65)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -198,7 +198,7 @@
 		(uuid "3ab01bbc-04f7-43ea-bf17-768f5001d6fb")
 	)
 	(fp_text user "GND"
-		(at -0.1 -1.9 180)
+		(at -0.3 -1.55 180)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "9f6b483c-54aa-4a87-b38d-02ff2f6f0ced")
@@ -222,19 +222,25 @@
 		)
 	)
 	(pad "1" smd rect
-		(at -0.65 0.65)
-		(size 0.9 0.9)
+		(at -0.475 0.475)
+		(size 0.55 0.55)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "dbf55c26-cb35-4ca2-a903-67a26fe89919")
 	)
 	(pad "2" smd rect
-		(at 0.65 0.65)
-		(size 0.9 0.9)
+		(at 0.475 0.475)
+		(size 0.55 0.55)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "77f7369e-08f8-4860-92b2-7402ce4f14a4")
 	)
+	(pad "2" smd rect
+		(at 0.8 0.6)
+		(size 0.5 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "b66804b1-5e20-46e8-9ed7-ed753c2d8e54")
+	)
 	(pad "2" thru_hole circle
-		(at 0.9 0.65)
+		(at 0.95 0.6)
 		(size 0.3 0.3)
 		(drill 0.2)
 		(layers "*.Cu" "*.Mask")
@@ -242,13 +248,13 @@
 		(uuid "42e2ed48-008d-4cc2-900c-5f8707b38a6d")
 	)
 	(pad "3" smd rect
-		(at 0.65 -0.65)
-		(size 0.9 0.9)
+		(at 0.475 -0.475)
+		(size 0.55 0.55)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "15841667-2bc5-4b7b-8e57-152ad27a1eeb")
 	)
 	(pad "4" thru_hole circle
-		(at -0.85 -0.7)
+		(at -0.95 -0.6)
 		(size 0.3 0.3)
 		(drill 0.2)
 		(layers "*.Cu" "*.Mask")
@@ -256,12 +262,19 @@
 		(uuid "4920eae7-fc74-4e45-80b1-f1ef1d8aa4fb")
 	)
 	(pad "4" smd rect
-		(at -0.65 -0.65)
-		(size 0.9 0.9)
+		(at -0.7 -0.6)
+		(size 0.5 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "b7ad0ebf-76a1-41e0-aca6-4261092ec9f8")
+	)
+	(pad "4" smd rect
+		(at -0.475 -0.475)
+		(size 0.55 0.55)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "b3ce8f6f-b359-4534-84e1-b18ba8cd1cf4")
 	)
 	(model ":CMK3DMOD:LED_SK6805-EC15_1.5x1.5mm_P0.65mm.step"
+		(hide yes)
 		(offset
 			(xyz 0 0 -1)
 		)
@@ -273,6 +286,7 @@
 		)
 	)
 	(model "${KIPRJMOD}/3d/SK6805-EC15 v2.step"
+		(hide yes)
 		(offset
 			(xyz 0 0 0.94)
 		)

@@ -14109,6 +14109,16 @@
 	)
 	(wire
 		(pts
+			(xy 628.65 76.2) (xy 638.81 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c87927f-15ee-4218-8a9f-99eb1d974887")
+	)
+	(wire
+		(pts
 			(xy 97.79 106.68) (xy 105.41 106.68)
 		)
 		(stroke
@@ -17786,6 +17796,16 @@
 			(type default)
 		)
 		(uuid "b8ac7999-35b2-45c4-946c-c4cabb9c31a2")
+	)
+	(wire
+		(pts
+			(xy 622.3 372.11) (xy 632.46 372.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b92f7242-c661-4996-af75-cab28d8f11f0")
 	)
 	(wire
 		(pts
@@ -34805,73 +34825,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:Jumper_2_Open")
-		(at 633.73 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "64a13ed4-be86-44ae-9e56-a047fc695e45")
-		(property "Reference" "NA_JP5002"
-			(at 632.714 72.898 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NA_Jumper_2_Open"
-			(at 642.112 69.596 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "local-libraries:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 633.73 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 633.73 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 633.73 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a0c417de-3dfe-4fa9-9b7a-9d8f11f72ab6")
-		)
-		(pin "2"
-			(uuid "463fe378-cf97-48fb-b69b-1f964c6c2e26")
-		)
-		(instances
-			(project "dilemma"
-				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "NA_JP5002")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 129.54 238.76 0)
 		(unit 1)
@@ -45439,73 +45392,6 @@
 			(project "dilemma"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
 					(reference "D5062")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:Jumper_2_Open")
-		(at 627.38 372.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "b97e7bf7-27af-4edd-8f83-29e893fc8a9e")
-		(property "Reference" "NA_JP5001"
-			(at 626.364 368.808 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NA_Jumper_2_Open"
-			(at 635.762 365.506 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "local-libraries:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 627.38 372.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 627.38 372.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 627.38 372.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c7a99eaf-5470-45cf-ab40-87688bfd4b65")
-		)
-		(pin "2"
-			(uuid "dae9c030-c535-4ac7-a411-3264fd0ae7d4")
-		)
-		(instances
-			(project "dilemma"
-				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "NA_JP5001")
 					(unit 1)
 				)
 			)
