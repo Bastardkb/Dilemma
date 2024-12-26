@@ -122,7 +122,10 @@ This is the first mod made for the keyboard - so it can function as a standalone
 
 It uses I2C on the DIY version, and SPI on the assembled version.
 
-The DIY version requires removing 2 resistors from the trackpad (see build guide).
+The DIY version requires removing some resistors from the trackpad:
+
+- R1
+- R7 and R8 if you are using a microcontroller that runs on 5V
 
 When installing the trackpad mod, you will need:
 
