@@ -80,6 +80,7 @@
         "footprint_type_mismatch": "warning",
         "hole_clearance": "warning",
         "hole_near_hole": "warning",
+        "holes_co_located": "warning",
         "invalid_outline": "error",
         "isolated_copper": "warning",
         "item_on_disabled_layer": "error",
@@ -542,6 +543,7 @@
   },
   "schematic": {
     "annotate_start_num": 5000,
+    "bom_export_filename": "",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",

@@ -10314,6 +10314,10 @@
 		(uuid "19c97e1b-f7b7-42cd-a358-3bfa194d1c62")
 	)
 	(no_connect
+		(at 441.96 176.53)
+		(uuid "1a11e81f-5b62-4ff4-b749-4627d86d1b3f")
+	)
+	(no_connect
 		(at 265.43 176.53)
 		(uuid "3896d8e3-13c4-4e01-a766-927ff0202f2b")
 	)
@@ -10338,16 +10342,36 @@
 		(uuid "667ed57f-1eb1-4a7a-b089-1084f6d4fdc7")
 	)
 	(no_connect
+		(at 453.39 198.12)
+		(uuid "6985ddea-423a-4c63-8a01-46fcb2f2b780")
+	)
+	(no_connect
 		(at 182.88 58.42)
 		(uuid "7a1cf4e2-8037-4882-b363-5f9f3b542adf")
+	)
+	(no_connect
+		(at 436.88 198.12)
+		(uuid "85165d3d-ebe3-411c-9602-6e04113d9d6c")
 	)
 	(no_connect
 		(at 321.31 474.98)
 		(uuid "89e99b7b-0af4-4e29-a473-c28b71302527")
 	)
 	(no_connect
+		(at 441.96 198.12)
+		(uuid "9506005f-de3d-4c86-a08f-b5662012e691")
+	)
+	(no_connect
+		(at 453.39 176.53)
+		(uuid "9b32a535-ab04-4cfc-b1ca-a78ac172fac9")
+	)
+	(no_connect
 		(at 326.39 180.34)
 		(uuid "a1f8cbbd-aa42-41a1-a8e6-3f01adc66037")
+	)
+	(no_connect
+		(at 448.31 176.53)
+		(uuid "ab0d9ed1-5add-4e9f-bed7-e0f7f9d8d810")
 	)
 	(no_connect
 		(at 326.39 185.42)
@@ -10360,6 +10384,10 @@
 	(no_connect
 		(at 180.34 400.05)
 		(uuid "bb3c6579-b064-441b-b104-e607d0984b38")
+	)
+	(no_connect
+		(at 448.31 198.12)
+		(uuid "bea98965-b1d4-47ef-b2d9-5f05b2851b63")
 	)
 	(no_connect
 		(at 340.36 356.87)
@@ -10376,6 +10404,10 @@
 	(no_connect
 		(at 48.26 363.22)
 		(uuid "faac2a35-39e0-4d4c-8f81-f0e1f1b7971d")
+	)
+	(no_connect
+		(at 436.88 176.53)
+		(uuid "fc07aa29-aba2-4703-9d20-71becdd549e6")
 	)
 	(wire
 		(pts
@@ -12859,6 +12891,16 @@
 	)
 	(polyline
 		(pts
+			(xy 463.55 210.82) (xy 431.8 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d2e46e6-d68e-436e-a285-8cdf2b817d6e")
+	)
+	(polyline
+		(pts
 			(xy 217.17 167.64) (xy 243.84 167.64)
 		)
 		(stroke
@@ -13347,6 +13389,16 @@
 		)
 		(uuid "490ff861-9b1a-489c-8371-d793232cccff")
 	)
+	(polyline
+		(pts
+			(xy 431.8 166.37) (xy 463.55 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4910f660-eaf6-441d-a581-32c5fd1b26fc")
+	)
 	(wire
 		(pts
 			(xy 41.91 521.97) (xy 68.58 521.97)
@@ -13796,6 +13848,16 @@
 			(type default)
 		)
 		(uuid "5241f871-28df-4eba-9fec-4358b6c1ed38")
+	)
+	(polyline
+		(pts
+			(xy 431.8 166.37) (xy 431.8 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52af23c0-8053-4ae6-ae49-d2f54c5c8cca")
 	)
 	(wire
 		(pts
@@ -19319,6 +19381,16 @@
 	)
 	(polyline
 		(pts
+			(xy 463.55 166.37) (xy 463.55 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddf1c05f-4657-4cc3-bcec-6b843ae1e0d6")
+	)
+	(polyline
+		(pts
 			(xy 83.82 316.23) (xy 83.82 454.66)
 		)
 		(stroke
@@ -20839,6 +20911,19 @@
 		)
 		(uuid "4cb7a894-bb4e-4af1-ac70-43aa5cd340b6")
 	)
+	(text "Mouse bites"
+		(exclude_from_sim no)
+		(at 431.8 166.37 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+				(thickness 0.3556)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "5d680dab-2b37-4146-b533-860b76a135ee")
+	)
 	(text "Indicator & buttons"
 		(exclude_from_sim no)
 		(at 15.24 447.04 0)
@@ -21188,7 +21273,6 @@
 	)
 	(label "SWCLK"
 		(at 288.29 33.02 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21199,7 +21283,6 @@
 	)
 	(label "QSPI_~{CS}_L"
 		(at 109.22 355.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21210,7 +21293,6 @@
 	)
 	(label "SCLK_L"
 		(at 340.36 354.33 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21221,7 +21303,6 @@
 	)
 	(label "QSPI_D2"
 		(at 111.76 68.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21232,7 +21313,6 @@
 	)
 	(label "SCLK"
 		(at 191.77 114.3 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21243,7 +21323,6 @@
 	)
 	(label "SWD"
 		(at 124.46 120.65 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21254,7 +21333,6 @@
 	)
 	(label "LED"
 		(at 191.77 101.6 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21265,7 +21343,6 @@
 	)
 	(label "QSPI_D1_L"
 		(at 109.22 361.95 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21276,7 +21353,6 @@
 	)
 	(label "VBUS_DET"
 		(at 195.58 106.68 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21287,7 +21363,6 @@
 	)
 	(label "D-_L"
 		(at 58.42 347.98 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21298,7 +21373,6 @@
 	)
 	(label "MOSI"
 		(at 191.77 116.84 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21309,7 +21383,6 @@
 	)
 	(label "D+_L"
 		(at 210.82 515.62 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21320,7 +21393,6 @@
 	)
 	(label "QSPI_D3_L"
 		(at 265.43 433.07 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21331,7 +21403,6 @@
 	)
 	(label "SCLK_L"
 		(at 189.23 410.21 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21342,7 +21413,6 @@
 	)
 	(label "VBUS_DET_L"
 		(at 193.04 402.59 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21353,7 +21423,6 @@
 	)
 	(label "SCLK_L"
 		(at 294.64 358.14 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21364,7 +21433,6 @@
 	)
 	(label "D-"
 		(at 111.76 83.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21375,7 +21443,6 @@
 	)
 	(label "~{RESET}"
 		(at 31.75 172.72 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21386,7 +21453,6 @@
 	)
 	(label "QSPI_SCLK_L"
 		(at 109.22 370.84 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21397,7 +21463,6 @@
 	)
 	(label "LED_L"
 		(at 22.86 455.93 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21408,7 +21473,6 @@
 	)
 	(label "QSPI_SCLK"
 		(at 218.44 134.62 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21419,7 +21483,6 @@
 	)
 	(label "MOSI_L"
 		(at 340.36 344.17 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21430,7 +21493,6 @@
 	)
 	(label "~{RESET}"
 		(at 474.98 114.3 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21441,7 +21503,6 @@
 	)
 	(label "MISO_L"
 		(at 189.23 405.13 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21452,7 +21513,6 @@
 	)
 	(label "QSPI_D3_L"
 		(at 109.22 367.03 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21463,7 +21523,6 @@
 	)
 	(label "QSPI_D0"
 		(at 267.97 127 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21474,7 +21533,6 @@
 	)
 	(label "D+_L"
 		(at 58.42 350.52 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21485,7 +21543,6 @@
 	)
 	(label "QSPI_~{CS}_L"
 		(at 215.9 425.45 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21496,7 +21553,6 @@
 	)
 	(label "D+_L"
 		(at 210.82 520.7 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21507,7 +21563,6 @@
 	)
 	(label "QSPI_~{CS}"
 		(at 218.44 129.54 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21518,7 +21573,6 @@
 	)
 	(label "QSPI_D1"
 		(at 111.76 66.04 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21529,7 +21583,6 @@
 	)
 	(label "D-_L"
 		(at 190.5 515.62 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21540,7 +21593,6 @@
 	)
 	(label "SCLK"
 		(at 297.18 62.23 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21551,7 +21603,6 @@
 	)
 	(label "~{RESET}"
 		(at 119.38 106.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21562,7 +21613,6 @@
 	)
 	(label "~{RESET_L}"
 		(at 29.21 468.63 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21573,7 +21623,6 @@
 	)
 	(label "SWD"
 		(at 288.29 30.48 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21584,7 +21633,6 @@
 	)
 	(label "D-"
 		(at 193.04 226.06 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21595,7 +21643,6 @@
 	)
 	(label "MISO_L"
 		(at 340.36 351.79 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21606,7 +21653,6 @@
 	)
 	(label "D-"
 		(at 193.04 220.98 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21617,7 +21663,6 @@
 	)
 	(label "QSPI_D3"
 		(at 111.76 71.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21628,7 +21673,6 @@
 	)
 	(label "D+"
 		(at 213.36 220.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21639,7 +21683,6 @@
 	)
 	(label "QSPI_~{CS}"
 		(at 111.76 59.69 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21650,7 +21693,6 @@
 	)
 	(label "QSPI_D1_L"
 		(at 265.43 425.45 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21661,7 +21703,6 @@
 	)
 	(label "SWCLK_L"
 		(at 285.75 328.93 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21672,7 +21713,6 @@
 	)
 	(label "QSPI_D2_L"
 		(at 265.43 430.53 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21683,7 +21723,6 @@
 	)
 	(label "~{RESET_L}"
 		(at 436.88 435.61 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21694,7 +21733,6 @@
 	)
 	(label "D+_L"
 		(at 109.22 377.19 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21705,7 +21743,6 @@
 	)
 	(label "~{RESET_L}"
 		(at 473.71 408.94 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21716,7 +21753,6 @@
 	)
 	(label "~{RESET}"
 		(at 439.42 137.16 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21727,7 +21763,6 @@
 	)
 	(label "QSPI_D2"
 		(at 267.97 134.62 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21738,7 +21773,6 @@
 	)
 	(label "SWD_L"
 		(at 285.75 326.39 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21749,7 +21783,6 @@
 	)
 	(label "D+"
 		(at 111.76 81.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21760,7 +21793,6 @@
 	)
 	(label "D-"
 		(at 60.96 52.07 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21771,7 +21803,6 @@
 	)
 	(label "MOSI_L"
 		(at 294.64 360.68 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21782,7 +21813,6 @@
 	)
 	(label "QSPI_~{CS}_L"
 		(at 44.45 455.93 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21793,7 +21823,6 @@
 	)
 	(label "LED"
 		(at 25.4 160.02 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21804,7 +21833,6 @@
 	)
 	(label "D-_L"
 		(at 190.5 520.7 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21815,7 +21843,6 @@
 	)
 	(label "D-_L"
 		(at 109.22 379.73 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21826,7 +21853,6 @@
 	)
 	(label "MOSI"
 		(at 342.9 48.26 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21837,7 +21863,6 @@
 	)
 	(label "MOSI"
 		(at 297.18 64.77 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21848,7 +21873,6 @@
 	)
 	(label "QSPI_D1"
 		(at 267.97 129.54 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21859,7 +21883,6 @@
 	)
 	(label "QSPI_D0_L"
 		(at 265.43 422.91 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21870,7 +21893,6 @@
 	)
 	(label "LED_L"
 		(at 189.23 397.51 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21881,7 +21903,6 @@
 	)
 	(label "QSPI_D0_L"
 		(at 109.22 359.41 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21892,7 +21913,6 @@
 	)
 	(label "SWCLK_L"
 		(at 121.92 414.02 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21903,7 +21923,6 @@
 	)
 	(label "MISO"
 		(at 191.77 109.22 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21914,7 +21933,6 @@
 	)
 	(label "SCLK"
 		(at 342.9 58.42 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21925,7 +21943,6 @@
 	)
 	(label "QSPI_D2_L"
 		(at 109.22 364.49 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21936,7 +21953,6 @@
 	)
 	(label "SWD_L"
 		(at 121.92 416.56 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21947,7 +21963,6 @@
 	)
 	(label "QSPI_SCLK_L"
 		(at 215.9 430.53 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21958,7 +21973,6 @@
 	)
 	(label "~{RESET}"
 		(at 436.88 118.11 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21969,7 +21983,6 @@
 	)
 	(label "MISO"
 		(at 342.9 55.88 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21980,7 +21993,6 @@
 	)
 	(label "~{RESET_L}"
 		(at 434.34 412.75 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21991,7 +22003,6 @@
 	)
 	(label "SWCLK"
 		(at 124.46 118.11 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22002,7 +22013,6 @@
 	)
 	(label "QSPI_~{CS}"
 		(at 46.99 161.29 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22013,7 +22023,6 @@
 	)
 	(label "QSPI_SCLK"
 		(at 111.76 74.93 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22024,7 +22033,6 @@
 	)
 	(label "QSPI_D3"
 		(at 267.97 137.16 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22035,7 +22043,6 @@
 	)
 	(label "~{RESET_L}"
 		(at 116.84 402.59 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22046,7 +22053,6 @@
 	)
 	(label "MOSI_L"
 		(at 189.23 412.75 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22057,7 +22063,6 @@
 	)
 	(label "D+"
 		(at 60.96 54.61 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22068,7 +22073,6 @@
 	)
 	(label "QSPI_D0"
 		(at 111.76 63.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22079,7 +22083,6 @@
 	)
 	(label "D+"
 		(at 213.36 226.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26238,6 +26241,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 436.88 173.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0bfe51bc-c6e5-4003-ab2c-362562374021")
+		(property "Reference" "H5008"
+			(at 435.61 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NA_M4"
+			(at 435.61 186.182 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "local-libraries:mousebite"
+			(at 436.88 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 436.88 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 436.88 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4ee6d97f-d53e-4948-ae49-4495829bf729")
+		)
+		(instances
+			(project "dilemma"
+				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
+					(reference "H5008")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 326.39 54.61 180)
 		(unit 1)
@@ -27108,6 +27177,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 436.88 195.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "10ee3ad6-066f-4976-bc59-b087b9455e86")
+		(property "Reference" "H5012"
+			(at 435.61 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NA_M4"
+			(at 435.61 207.772 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "local-libraries:mousebite"
+			(at 436.88 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 436.88 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 436.88 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e26442f7-07a8-484f-a803-e71b16540a13")
+		)
+		(instances
+			(project "dilemma"
+				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
+					(reference "H5012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power_L:+3V3_L")
 		(at 328.93 342.9 180)
 		(unit 1)
@@ -27515,6 +27650,72 @@
 			(project "dilemma"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
 					(reference "D5036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 453.39 173.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1635004a-730d-4d88-93df-97a6a24daef8")
+		(property "Reference" "H5011"
+			(at 452.12 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NA_M4"
+			(at 452.12 186.182 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "local-libraries:mousebite"
+			(at 453.39 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 453.39 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 453.39 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0865617c-3e06-473f-a135-292a0f22d7f5")
+		)
+		(instances
+			(project "dilemma"
+				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
+					(reference "H5011")
 					(unit 1)
 				)
 			)
@@ -30483,6 +30684,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 453.39 195.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "325337ed-d8f0-4766-b7f0-e38502a443e3")
+		(property "Reference" "H5015"
+			(at 452.12 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NA_M4"
+			(at 452.12 207.772 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "local-libraries:mousebite"
+			(at 453.39 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 453.39 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 453.39 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "08e6db77-7a5d-4afc-9bd4-47a317737fc9")
+		)
+		(instances
+			(project "dilemma"
+				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
+					(reference "H5015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 586.74 60.96 0)
 		(unit 1)
@@ -32936,6 +33203,72 @@
 			(project "dilemma"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
 					(reference "H106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 441.96 173.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4d5402c5-b267-49ed-a27b-6595f3d11fb4")
+		(property "Reference" "H5009"
+			(at 440.69 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NA_M4"
+			(at 440.69 186.182 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "local-libraries:mousebite"
+			(at 441.96 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 441.96 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 441.96 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "111a795f-7c1d-4514-805c-973020f64b92")
+		)
+		(instances
+			(project "dilemma"
+				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
+					(reference "H5009")
 					(unit 1)
 				)
 			)
@@ -42496,6 +42829,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 448.31 173.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a5215e77-2ad9-4546-a127-aa7454e6544f")
+		(property "Reference" "H5010"
+			(at 447.04 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NA_M4"
+			(at 447.04 186.182 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "local-libraries:mousebite"
+			(at 448.31 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 448.31 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 448.31 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b3305458-e8a3-4c31-936a-e63617a24d17")
+		)
+		(instances
+			(project "dilemma"
+				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
+					(reference "H5010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:FerriteBead_Small")
 		(at 29.21 372.11 270)
 		(unit 1)
@@ -48264,6 +48663,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 441.96 195.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d036d39b-8e99-448e-9aaa-1cd310e3d7f9")
+		(property "Reference" "H5013"
+			(at 440.69 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NA_M4"
+			(at 440.69 207.772 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "local-libraries:mousebite"
+			(at 441.96 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 441.96 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 441.96 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "250f993e-296f-44fe-a16c-9278bfc5829f")
+		)
+		(instances
+			(project "dilemma"
+				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
+					(reference "H5013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power_L:GND_L")
 		(at 368.3 372.11 0)
 		(unit 1)
@@ -49553,6 +50018,72 @@
 			(project "dilemma"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
 					(reference "#PWR05001")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 448.31 195.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d8cd0bcd-706b-4728-97c9-a729e73a0314")
+		(property "Reference" "H5014"
+			(at 447.04 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NA_M4"
+			(at 447.04 207.772 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "local-libraries:mousebite"
+			(at 448.31 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 448.31 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 448.31 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a0b8b7b8-b0aa-49b9-a376-5865711322ae")
+		)
+		(instances
+			(project "dilemma"
+				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
+					(reference "H5014")
 					(unit 1)
 				)
 			)
