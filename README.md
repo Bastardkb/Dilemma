@@ -4,7 +4,7 @@
 
 The Dilemma is a vertical stagger low-profile keyboard with mods.
 
-![](pics/1n.jpg)
+![](pics/1n.JPG)
 
 ## Table of contents
 
