@@ -14,12 +14,13 @@ The Dilemma is a vertical stagger low-profile keyboard with mods.
   - [3d prints - cases](#3d-prints---cases)
   - [Electronics](#electronics)
   - [Procyon mod](#procyon-mod)
-  - [Trackpad mod](#trackpad-mod)
+  - [Cirque Trackpad mod](#cirque-trackpad-mod)
+  - [Cases](#cases)
+    - [Acrylic midplate (v2 only)](#acrylic-midplate-v2-only)
   - [Metal plates](#metal-plates)
   - [Community mods](#community-mods)
   - [Build guide](#build-guide)
   - [Forks](#forks)
-
 
 ---
 
@@ -61,9 +62,46 @@ The new revisions are made to be PCBA'd, you can find the gerber, BOM and POS fi
 
 The `dilemma v3 hotswap` is made to work with a [Procyon PCB](https://github.com/bstiq/procyon).
 
-## Trackpad mod
+## Cirque Trackpad mod
 
-This is the first mod made for the keyboard - so it can function as a standalone input device.
+This mod uses I2C on the DIY version, and SPI on the assembled version.
+
+The DIY version requires removing some resistors from the trackpad:
+
+- R1
+- R7 and R8 if you are using a microcontroller that runs on 5V
+
+When installing the trackpad mod, you will need:
+
+| Part name           | Amount | Link / source           |
+| ------------------- | ------ | ----------------------- |
+| M3 screw, torx, 6mm | 4      | Conrad                  |
+| M3x5x5 screw insert | 4      | Aliexpress              |
+| 3d printed parts    |        | See `mechanical` folder |
+| 40mm cirque trackpad, curved    |        | |
+
+
+If building the PCBA version, you will also need:
+
+| Part name                                                     | Amount | Link / source |
+| ------------------------------------------------------------- | ------ | ------------- |
+| 12-position FPC cable, 0.5mm pitch, same side contacts, 100mm | 1      | Farnell       |
+
+
+If building the DIY version, you will also need:
+
+| Part name               | Amount | Link / source |
+| ----------------------- | ------ | ------------- |
+| SOD123 Resistor, 5kOhms | 2      |               |
+| Cables                  |        |               |
+
+## Cases
+
+### Acrylic midplate (v2 only)
+
+This case is only compatible with the assembled_v2 version !
+
+Add an underglow effect and a beautiful view into the PCB with those acrylic midplates.
 
 ## Metal plates
 
@@ -88,7 +126,7 @@ You can find more information in the readme in the `mechanical/community mods` f
 
 ## Build guide
 
-https://docs.bastardkb.com/bg_dilemma/
+https://docs.bastardkb.com/bg_dilemma/intro.html
 
 
 ## Forks
