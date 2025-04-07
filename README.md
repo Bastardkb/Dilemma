@@ -85,7 +85,7 @@ If building the PCBA version, you will also need:
 
 | Part name                                                     | Amount | Link / source |
 | ------------------------------------------------------------- | ------ | ------------- |
-| 12-position FPC cable, 0.5mm pitch, same side contacts, 100mm | 1      | Farnell       |
+| 12-position FPC cable, 0.5mm pitch, same side contacts, 100mm, type-B | 1      | Farnell       |
 
 
 If building the DIY version, you will also need:
