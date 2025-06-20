@@ -9284,19 +9284,6 @@
 		)
 		(uuid "19fe17b7-91bd-478d-b284-d94762b1a4b5")
 	)
-	(text "Tenting puck"
-		(exclude_from_sim no)
-		(at 363.22 461.645 0)
-		(effects
-			(font
-				(size 1.778 1.778)
-				(thickness 0.3556)
-				(bold yes)
-			)
-			(justify right bottom)
-		)
-		(uuid "1a1ab757-51de-4969-8924-8675206b3aa2")
-	)
 	(text "Rotary encoders"
 		(exclude_from_sim no)
 		(at 325.755 109.855 0)
@@ -14595,16 +14582,6 @@
 		)
 		(uuid "47215b44-a81b-4ade-87da-de4829e949c3")
 	)
-	(polyline
-		(pts
-			(xy 372.745 462.28) (xy 372.745 487.045)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "473a74b0-06ff-41ca-907f-6a252ab6c5a3")
-	)
 	(wire
 		(pts
 			(xy 50.8 36.83) (xy 53.34 36.83)
@@ -18145,16 +18122,6 @@
 		)
 		(uuid "9736c41b-4d1a-42e1-b728-0ce4bd6edd1b")
 	)
-	(polyline
-		(pts
-			(xy 346.075 462.28) (xy 346.075 487.045)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "973d9e33-7f28-487d-8f33-9356ece23598")
-	)
 	(wire
 		(pts
 			(xy 963.295 151.765) (xy 973.455 151.765)
@@ -18824,16 +18791,6 @@
 			(type default)
 		)
 		(uuid "a5424812-224a-4644-80cd-92ea92f4e925")
-	)
-	(polyline
-		(pts
-			(xy 372.745 487.045) (xy 346.075 487.045)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a579f010-dacf-42d4-98e3-764b5ef5251f")
 	)
 	(polyline
 		(pts
@@ -21534,16 +21491,6 @@
 			(type default)
 		)
 		(uuid "e03e61ca-23ea-46be-bad8-66ee27ce7be6")
-	)
-	(polyline
-		(pts
-			(xy 346.075 462.28) (xy 372.745 462.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e08085fa-06f7-435e-8d4c-7dfd2def1108")
 	)
 	(wire
 		(pts
@@ -32725,71 +32672,6 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 351.155 469.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "27b00171-4cdd-4a23-8e7b-489c499e46a9")
-		(property "Reference" "H5008"
-			(at 349.885 464.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NA_Mount"
-			(at 349.885 482.092 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "local-libraries:Tenting_Puck"
-			(at 351.155 469.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 351.155 469.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 351.155 469.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "54642827-47cd-4706-b98a-56254729af31")
-		)
-		(instances
-			(project "dilemma"
-				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "H5008")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
 		(at 198.12 471.17 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -39922,71 +39804,6 @@
 			(project "dilemma"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
 					(reference "#PWR05056")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power_L:GND_L")
-		(at 351.155 472.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5b21f87b-558d-4643-ad6d-8779a7c34bb1")
-		(property "Reference" "#PWR05054"
-			(at 351.155 478.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND_L"
-			(at 351.155 477.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 351.155 472.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 351.155 472.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 351.155 472.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "97ef128f-5ebc-49e0-8a60-0bb31425ecac")
-		)
-		(instances
-			(project "dilemma"
-				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "#PWR05054")
 					(unit 1)
 				)
 			)
