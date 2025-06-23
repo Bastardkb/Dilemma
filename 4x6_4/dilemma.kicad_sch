@@ -9589,6 +9589,19 @@
 		)
 		(uuid "6616589e-aeaa-4ebb-8a48-69fe013ff4f5")
 	)
+	(text "Mouse bites - panel"
+		(exclude_from_sim no)
+		(at 510.54 127 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+				(thickness 0.3556)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "6bcf7bdc-818b-4f48-a65a-258d62e45f47")
+	)
 	(text "switch to gnd for left half"
 		(exclude_from_sim no)
 		(at 331.47 232.41 0)
@@ -11552,6 +11565,18 @@
 		(uuid "ff3ad9c0-dbfb-4fb3-b235-56c750f23f72")
 	)
 	(no_connect
+		(at 523.24 137.16)
+		(uuid "0a713901-bd70-4f67-9465-b7463ab59a45")
+	)
+	(no_connect
+		(at 538.48 156.21)
+		(uuid "12cbf8b2-96b4-440f-8ccd-487905c91499")
+	)
+	(no_connect
+		(at 543.56 137.16)
+		(uuid "13f0ca26-2f5d-4403-80ee-fb912ea30208")
+	)
+	(no_connect
 		(at 342.265 50.8)
 		(uuid "19b300bf-b9fb-4a4b-b4e2-73ded671ae79")
 	)
@@ -11576,12 +11601,24 @@
 		(uuid "19c97e1b-f7b7-42cd-a358-3bfa194d1c62")
 	)
 	(no_connect
+		(at 529.59 137.16)
+		(uuid "1f244959-594e-45f4-8724-3556480899ce")
+	)
+	(no_connect
 		(at 473.71 158.75)
 		(uuid "2003f41a-62d8-4cc1-8e0c-e7d96312befd")
 	)
 	(no_connect
 		(at 339.725 340.995)
 		(uuid "2984ca69-dc32-4c20-a11b-903dd74ada01")
+	)
+	(no_connect
+		(at 530.86 156.21)
+		(uuid "2b5a6ed4-76ee-4520-b8df-1628a5f9cb32")
+	)
+	(no_connect
+		(at 524.51 156.21)
+		(uuid "38b2618e-9982-48a6-90ae-b0cb493139ba")
 	)
 	(no_connect
 		(at 50.8 64.77)
@@ -11592,8 +11629,20 @@
 		(uuid "455fd08e-7008-46a0-9e5a-f14373728ee7")
 	)
 	(no_connect
+		(at 516.89 156.21)
+		(uuid "4cba10ee-219a-4e2e-93f4-56026b127785")
+	)
+	(no_connect
 		(at 342.265 45.72)
 		(uuid "5a2db3c3-ab59-420c-aa01-c9b1226baeef")
+	)
+	(no_connect
+		(at 551.18 137.16)
+		(uuid "5efa55b5-5ce8-4035-90ee-2459b0b94017")
+	)
+	(no_connect
+		(at 552.45 156.21)
+		(uuid "70b31d3f-4d7a-4e85-aaa3-e4cd7b39630f")
 	)
 	(no_connect
 		(at 182.88 58.42)
@@ -11660,12 +11709,24 @@
 		(uuid "d1ae9ed1-1c0c-4226-833a-30832f3647cc")
 	)
 	(no_connect
+		(at 537.21 137.16)
+		(uuid "dd41d41f-3ea7-4afe-af1d-e1c2dc75f2e2")
+	)
+	(no_connect
 		(at 1100.455 245.11)
 		(uuid "e12c4929-2f9f-40f7-93cb-b7e4ff76fbe3")
 	)
 	(no_connect
 		(at 271.78 176.53)
 		(uuid "e1699de3-fff6-4273-98cb-79965086eba0")
+	)
+	(no_connect
+		(at 515.62 137.16)
+		(uuid "e1773dce-ab69-43d6-9bd4-1af4525a7164")
+	)
+	(no_connect
+		(at 544.83 156.21)
+		(uuid "e62773be-0037-4fe5-aeb8-e84369edfeef")
 	)
 	(no_connect
 		(at 264.16 473.71)
@@ -15351,6 +15412,16 @@
 		)
 		(uuid "52403c45-7b58-4195-8e60-87fe8394490a")
 	)
+	(polyline
+		(pts
+			(xy 510.54 127) (xy 560.07 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5295a86b-0330-4efb-971a-d3251f4850a8")
+	)
 	(wire
 		(pts
 			(xy 30.48 410.845) (xy 36.83 410.845)
@@ -18071,6 +18142,16 @@
 		)
 		(uuid "912075f8-c095-46a2-9650-8f07fc751afb")
 	)
+	(polyline
+		(pts
+			(xy 560.07 171.45) (xy 510.54 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "913e7583-e933-4d6c-a538-58bad60c073e")
+	)
 	(wire
 		(pts
 			(xy 90.17 518.16) (xy 90.17 528.32)
@@ -18120,6 +18201,16 @@
 			(type default)
 		)
 		(uuid "92d4c3c7-d806-44c6-87ea-02747f2d7544")
+	)
+	(polyline
+		(pts
+			(xy 510.54 127) (xy 510.54 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92dd8092-a7fd-40cc-85b0-1316466cfb37")
 	)
 	(wire
 		(pts
@@ -19480,6 +19571,16 @@
 			(type default)
 		)
 		(uuid "b19b0b2d-e9f9-4888-a4d3-a37641b44081")
+	)
+	(polyline
+		(pts
+			(xy 560.07 127) (xy 560.07 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1dfff9e-889e-4cde-972f-25c84e31ad05")
 	)
 	(wire
 		(pts
@@ -30195,6 +30296,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 515.62 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "11b9da23-06ab-4a53-bf99-ec798cf4b5c4")
+		(property "Reference" "H6001"
+			(at 514.35 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NA_M4"
+			(at 514.35 146.812 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "local-libraries:mousebite"
+			(at 515.62 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 515.62 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 515.62 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "90974ed2-7e53-4fcc-9164-5db7c9921b02")
+		)
+		(instances
+			(project "dilemma"
+				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
+					(reference "H6001")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 146.05 222.25 180)
 		(unit 1)
@@ -36914,6 +37081,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 552.45 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "40d13b7c-8878-4ac0-83e3-d18204edf742")
+		(property "Reference" "H6012"
+			(at 551.18 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NA_M4"
+			(at 551.18 165.862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "local-libraries:mousebite"
+			(at 552.45 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 552.45 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 552.45 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c3f313d8-79b3-48c8-8a14-b10e85b18b6d")
+		)
+		(instances
+			(project "dilemma"
+				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
+					(reference "H6012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 328.295 338.455 180)
 		(unit 1)
@@ -38155,6 +38388,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 538.48 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "4b14cec4-0a56-4175-9ec7-c883d6e8a47c")
+		(property "Reference" "H6010"
+			(at 537.21 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NA_M4"
+			(at 537.21 165.862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "local-libraries:mousebite"
+			(at 538.48 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 538.48 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 538.48 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3fd2513d-6b8d-4810-b26a-b3c146a6c7ba")
+		)
+		(instances
+			(project "dilemma"
+				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
+					(reference "H6010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 86.36 528.32 180)
 		(unit 1)
@@ -38613,6 +38912,72 @@
 			(project "dilemma"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
 					(reference "H106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 529.59 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "4e414e85-8c0e-447e-b830-ad61299dcf4a")
+		(property "Reference" "H6003"
+			(at 528.32 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NA_M4"
+			(at 528.32 146.812 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "local-libraries:mousebite"
+			(at 529.59 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 529.59 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 529.59 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e13249f1-69f9-4cae-a810-8186a18f32f8")
+		)
+		(instances
+			(project "dilemma"
+				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
+					(reference "H6003")
 					(unit 1)
 				)
 			)
@@ -41125,6 +41490,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 530.86 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "5f1eee29-8e97-4f4e-b7e4-4443f40995c6")
+		(property "Reference" "H6009"
+			(at 529.59 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NA_M4"
+			(at 529.59 165.862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "local-libraries:mousebite"
+			(at 530.86 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 530.86 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 530.86 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "801c733c-3db0-47d1-b6c5-76a2ccd54aa5")
+		)
+		(instances
+			(project "dilemma"
+				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
+					(reference "H6009")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LED:SK6812MINI")
 		(at 981.075 283.21 0)
 		(unit 1)
@@ -42232,6 +42663,72 @@
 			(project "dilemma"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 551.18 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "67b5924f-6af8-4491-a26f-3c094f644c94")
+		(property "Reference" "H6006"
+			(at 549.91 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NA_M4"
+			(at 549.91 146.812 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "local-libraries:mousebite"
+			(at 551.18 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 551.18 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 551.18 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cb32d41a-4af4-4d17-b065-3796315d8e68")
+		)
+		(instances
+			(project "dilemma"
+				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
+					(reference "H6006")
 					(unit 1)
 				)
 			)
@@ -46274,6 +46771,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 523.24 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "7c49cfbe-5077-456a-92d4-36d831bf8bf1")
+		(property "Reference" "H6002"
+			(at 521.97 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NA_M4"
+			(at 521.97 146.812 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "local-libraries:mousebite"
+			(at 523.24 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 523.24 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 523.24 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7a95bb49-868c-4496-bf4d-dc24645cdf6a")
+		)
+		(instances
+			(project "dilemma"
+				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
+					(reference "H6002")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 981.075 111.125 180)
 		(unit 1)
@@ -50281,6 +50844,72 @@
 			(project "dilemma"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
 					(reference "#PWR05003")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 516.89 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "92c7bf21-f233-489a-ae2d-2e5e7a2e9d1a")
+		(property "Reference" "H6007"
+			(at 515.62 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NA_M4"
+			(at 515.62 165.862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "local-libraries:mousebite"
+			(at 516.89 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 516.89 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 516.89 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b4fd5cf3-f042-470e-afd7-fbb097657fab")
+		)
+		(instances
+			(project "dilemma"
+				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
+					(reference "H6007")
 					(unit 1)
 				)
 			)
@@ -59575,6 +60204,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 537.21 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "c0c7e506-85d2-4f3a-8f38-2a07f96b890c")
+		(property "Reference" "H6004"
+			(at 535.94 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NA_M4"
+			(at 535.94 146.812 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "local-libraries:mousebite"
+			(at 537.21 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 537.21 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 537.21 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fd02ed17-faed-4a13-a8c1-7e3ba1d3e001")
+		)
+		(instances
+			(project "dilemma"
+				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
+					(reference "H6004")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 119.38 222.25 180)
 		(unit 1)
@@ -63999,6 +64694,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 543.56 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "d8cb1317-5c93-4350-961f-6b81cc639904")
+		(property "Reference" "H6005"
+			(at 542.29 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NA_M4"
+			(at 542.29 146.812 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "local-libraries:mousebite"
+			(at 543.56 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 543.56 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 543.56 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c8d29298-e19b-483b-bb55-c0b3a1e82b8a")
+		)
+		(instances
+			(project "dilemma"
+				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
+					(reference "H6005")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 172.72 232.41 180)
 		(unit 1)
@@ -67865,6 +68626,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 544.83 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "f1a195ff-2f4d-48c6-96bb-4792fce36f09")
+		(property "Reference" "H6011"
+			(at 543.56 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NA_M4"
+			(at 543.56 165.862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "local-libraries:mousebite"
+			(at 544.83 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 544.83 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 544.83 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "70d15107-7cfd-428a-8f2e-24489cacd0d3")
+		)
+		(instances
+			(project "dilemma"
+				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
+					(reference "H6011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 66.04 232.41 180)
 		(unit 1)
@@ -69501,6 +70328,72 @@
 			(project "dilemma"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
 					(reference "#PWR05103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 524.51 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "f7d5b339-294c-45fe-9628-3c952d184fca")
+		(property "Reference" "H6008"
+			(at 523.24 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NA_M4"
+			(at 523.24 165.862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "local-libraries:mousebite"
+			(at 524.51 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 524.51 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 524.51 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2417fd19-ac45-425f-81a7-a60faec79a85")
+		)
+		(instances
+			(project "dilemma"
+				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
+					(reference "H6008")
 					(unit 1)
 				)
 			)
