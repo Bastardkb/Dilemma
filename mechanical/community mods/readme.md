@@ -47,3 +47,8 @@ Credit: Frapiscide.
 ### Notes
 - The STL's are pre-oriented for their preferred printing position for FDM.
 - None of the parts need supports.
+
+## Dilemma Max Tents
+No extras required - same screws and silicon bumpers can be reused.
+
+5,7 and 15 degrees tents are available. Print on flat side. Tolerances might be quite tight, for ABS adjust for shrinkage.
