@@ -1,7 +1,7 @@
 (footprint "LED_SK6805-EC15_1.5x1.5mm_P0.6mm_handsolder(1)"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf")
 	(tags "LED RGB NeoPixel")
@@ -29,18 +29,6 @@
 			)
 		)
 	)
-	(property "Footprint" "LED_SK6805-EC15_1.5x1.5mm_P0.6mm_handsolder(1)"
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "a28f8fd9-be3a-4640-bec0-c8123601fac5")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -50,6 +38,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -62,6 +51,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -113,7 +103,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "53a5005e-1d70-44b9-a175-e660501b81dd")
 	)
@@ -224,55 +214,28 @@
 	(pad "1" smd rect
 		(at -0.475 0.475)
 		(size 0.55 0.55)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "dbf55c26-cb35-4ca2-a903-67a26fe89919")
 	)
 	(pad "2" smd rect
 		(at 0.475 0.475)
 		(size 0.55 0.55)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "77f7369e-08f8-4860-92b2-7402ce4f14a4")
-	)
-	(pad "2" smd rect
-		(at 0.8 0.6)
-		(size 0.5 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(uuid "b66804b1-5e20-46e8-9ed7-ed753c2d8e54")
-	)
-	(pad "2" thru_hole circle
-		(at 0.95 0.6)
-		(size 0.3 0.3)
-		(drill 0.2)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "42e2ed48-008d-4cc2-900c-5f8707b38a6d")
 	)
 	(pad "3" smd rect
 		(at 0.475 -0.475)
 		(size 0.55 0.55)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "15841667-2bc5-4b7b-8e57-152ad27a1eeb")
-	)
-	(pad "4" thru_hole circle
-		(at -0.95 -0.6)
-		(size 0.3 0.3)
-		(drill 0.2)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "4920eae7-fc74-4e45-80b1-f1ef1d8aa4fb")
-	)
-	(pad "4" smd rect
-		(at -0.7 -0.6)
-		(size 0.5 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(uuid "b7ad0ebf-76a1-41e0-aca6-4261092ec9f8")
 	)
 	(pad "4" smd rect
 		(at -0.475 -0.475)
 		(size 0.55 0.55)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "b3ce8f6f-b359-4534-84e1-b18ba8cd1cf4")
 	)
+	(embedded_fonts no)
 	(model ":CMK3DMOD:LED_SK6805-EC15_1.5x1.5mm_P0.65mm.step"
 		(hide yes)
 		(offset
