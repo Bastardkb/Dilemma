@@ -38,12 +38,13 @@ The Dilemma is a vertical stagger low-profile keyboard with mods.
 There are multiple versions of the dilemma:
 
 
-| Folder          | Name               | Size  | PCBA | Trackpad | Switches         | Additional features                     |
-| --------------- | ------------------ | ----- | ---- | -------- | ---------------- | --------------------------------------- |
-| `3x5_2`         | Dilemma DIY V2     | 3x5+2 | no   | Cirque   | MX, Choc V1      |                                         |
-| `3x5_3`         | Dilemma V3         | 3x5+3 | yes  | Cirque   | MX, Choc V1      | Underglow, per-key RGB, rotary encoders |
-| `3x5_3_hotswap` | Dilemma V3 hotswap | 3x5+3 | yes  | Procyon  | Choc V1, hotswap | Underglow, per-key RGB, rotary encoders |
-| `4x6_4`         | Dilemma MAX        | 4x6+4 | yes  | Cirque   | MX, Choc V1      | Underglow, per-key RGB, rotary encoders |
+| Folder          | Name                   | Size  | PCBA | Trackpad | Switches         | Additional features                          |
+| --------------- | ---------------------- | ----- | ---- | -------- | ---------------- | -------------------------------------------- |
+| `3x5_2`         | Dilemma DIY V2         | 3x5+2 | no   | Cirque   | MX, Choc V1      |                                              |
+| `3x5_3`         | Dilemma V2             | 3x5+3 | yes  | Cirque   | MX, Choc V1      | Underglow, per-key RGB, rotary encoders      |
+| `3x5_3_procyon` | Dilemma V3 hotswap     | 3x5+3 | yes  | Procyon  | Choc V1, hotswap | Underglow, per-key RGB, rotary encoders, VIK |
+| `4x6_4`         | Dilemma MAX            | 4x6+4 | yes  | Cirque   | MX, Choc V1      | Underglow, per-key RGB, rotary encoders      |
+| `4x6_4_procyon` | Dilemma MAX V3 hotswap | 4x6+4 | yes  | Procyon  | Choc V1, hotswap | Underglow, per-key RGB, rotary encodersk VIK |
 
 
 # Required components
