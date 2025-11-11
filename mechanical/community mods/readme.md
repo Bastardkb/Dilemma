@@ -53,8 +53,8 @@ No extras required - same screws and silicon bumpers can be reused.
 
 5,7 and 15 degrees tents are available. Print on flat side. Tolerances might be quite tight, for ABS adjust for shrinkage.
 
-## Dilemma V2 Clamp Mounts
-Credit: @brennanxyz
+## 3x5_3  Mounts
+Credit: [@brennanxyz](https://github.com/brennanxyz)
 
 ![](../../pics/1o.jpg)
 
