@@ -5,7 +5,7 @@
 
 # Trackball mod
 
-*This is a community mod made by Hakuko on Discord*
+*This is a community mod made by Hakuho on Discord*
 
 ![](./trackball/pic.jpg)
 
