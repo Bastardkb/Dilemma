@@ -7,6 +7,6 @@
 
 *This is a community mod made by Hakuko on Discord*
 
-![](./trackball/pic.png)
+![](./trackball/pic.jpg)
 
 File is in the `mods/trackball` folder.
